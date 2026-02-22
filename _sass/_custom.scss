@@ -2,73 +2,95 @@
  * Custom styles for Shobhit's academic website
  ******************************************************************************/
 
-// Navbar: larger font, more prominent nav links
+// Navbar: larger, bolder nav links
 .navbar.navbar-light {
   .navbar-brand {
-    font-size: 1.2rem;
-    font-weight: 600;
+    font-size: 1.25rem;
+    font-weight: 700;
     letter-spacing: 0.02em;
   }
 
   .navbar-nav .nav-item .nav-link {
     font-size: 1.05rem;
     font-weight: 500;
-    padding: 0.5rem 0.85rem;
+    padding: 0.5rem 0.75rem;
     text-transform: capitalize;
     letter-spacing: 0.01em;
   }
+
+  .navbar-nav .nav-item.active > .nav-link {
+    font-weight: 700;
+  }
 }
 
-// Page headings: stronger visual hierarchy
+// Page title: capitalize and strengthen
 .post-title,
 header.post-header h1 {
-  font-size: 2.2rem;
+  font-size: 2.4rem;
   font-weight: 700;
   letter-spacing: -0.01em;
+  text-transform: capitalize;
+  margin-bottom: 0.3rem;
 }
 
-// Section headings on research/awards pages
+// Page description below title
+.post-description {
+  font-size: 1.05rem;
+  color: var(--global-text-color-light);
+  margin-bottom: 1.5rem;
+}
+
+// Section headings (h2) on content pages - colored accent bar
 .post-content {
   h2 {
-    font-size: 1.55rem;
+    font-size: 1.5rem;
     font-weight: 700;
-    margin-top: 2rem;
+    margin-top: 2.2rem;
     margin-bottom: 0.8rem;
-    padding-bottom: 0.35rem;
-    border-bottom: 2px solid var(--global-theme-color);
+    padding-bottom: 0.3rem;
+    border-bottom: 2.5px solid var(--global-theme-color);
   }
 
   h3 {
-    font-size: 1.2rem;
+    font-size: 1.15rem;
     font-weight: 600;
     margin-top: 1.5rem;
   }
 }
 
-// About page: tighter bio layout
+// About page: cleaner bio flow
 .about {
   .profile {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
   }
 
-  // Subtitle styling
   .address {
     p {
       margin-bottom: 0.15rem;
-      font-size: 0.95rem;
+      font-size: 0.92rem;
     }
   }
 }
 
-// Research page: better spacing between sections
-.post-content hr {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+// Research / content page: better rhythm
+.post-content {
+  hr {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-top-color: var(--global-divider-color);
+  }
+
+  ul li {
+    margin-bottom: 0.25rem;
+  }
 }
 
-// Publication lists in research page
-.post-content ul {
-  li {
-    margin-bottom: 0.3rem;
+// Publications page: year labels
+.publications {
+  h2.bibliography {
+    font-size: 2rem;
+    font-weight: 300;
+    color: var(--global-theme-color);
+    border-bottom: none;
   }
 }

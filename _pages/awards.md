@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /awards/
-title: awards & grants
+title: awards
 description: Awards, fellowships, computational grants, and professional activities.
 nav: true
 nav_order: 5
