@@ -22,6 +22,7 @@ nav_order: 5
 | 2016 | Rotary Youth Leadership Award | Rotary Club of Nagpur |
 | 2016 | Project Exhibition Award (3rd Place) | NCOAT-NIRMITI, Priyadarshini Institute |
 | 2015 | Oral Presentation Award (1st Place) | Unnati 15, Priyadarshini College of Engineering |
+| 2012 | International Mathematics Olympiad — 155th State Rank (Maharashtra) | International Mathematics Olympiad |
 
 ---
 
@@ -71,3 +72,4 @@ I have secured over **$232,000** in computational resource allocations on nation
 - **Member of Academic Committee** — Graduate Student Government, Michigan Tech (Sep 2018–May 2019)
 - **Secretary** — Rotaract Club, Priyadarshini Institute of Engineering and Technology (Jun 2015–May 2016)
 - **Head of Abhyudaya Board** — Department of Chemical Engineering, Priyadarshini Institute (Jun 2015–May 2016)
+- **Community Service** — Organized 10-day Ganesh Utsaav "Samarth-2K15" cultural fest at Deaf & Dumb School, Nagpur, under Rotaract Club of PIET (2015)

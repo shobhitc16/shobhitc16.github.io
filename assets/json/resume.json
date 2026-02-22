@@ -36,8 +36,10 @@
       "summary": "Department of Chemistry and Biochemistry. Advisor: Dr. Anastassia N. Alexandrova",
       "highlights": [
         "Pioneered 3D electric field mapping frameworks for enzyme catalysis",
-        "Developed ML models to predict enzyme function from electric field fingerprints",
+        "Developed ML models to predict enzyme function from electric field fingerprints (up to 84% accuracy)",
         "Demonstrated electric field optimization through directed evolution of protoglobin",
+        "Automated Bash/Python/HPC pipelines for ~4,000 enzyme variants and ~20,000 MD simulations",
+        "Collaborated on drug discovery: FEP simulations and DFT for α-synuclein aggregation inhibitors",
         "Secured >$232K in ACCESS computational grants as PI/Co-PI"
       ]
     },
@@ -71,16 +73,20 @@
       "startDate": "2017-06-01",
       "endDate": "2017-12-01",
       "summary": "Department of Chemical Engineering. Advisor: Dr. Ateeque Malani",
-      "highlights": []
+      "highlights": [
+        "Molecular dynamics study of interaction between calcium oxalate and phytic acid — investigating mechanism of kidney stone formation"
+      ]
     },
     {
       "name": "Indian Institute of Technology Bombay",
-      "position": "Summer Intern",
+      "position": "Summer Research Intern",
       "location": "Mumbai, India",
       "startDate": "2016-05-01",
       "endDate": "2016-06-01",
       "summary": "Department of Chemical Engineering. Advisor: Dr. Ateeque Malani",
-      "highlights": []
+      "highlights": [
+        "Research internship on 'Mechanism of Kidney Stone Formation'"
+      ]
     }
   ],
   "education": [
@@ -92,7 +98,7 @@
       "studyType": "Ph.D.",
       "startDate": "2018-01-01",
       "endDate": "2022-12-01",
-      "score": "",
+      "score": "GPA: 3.66/4.00",
       "courses": [],
       "highlights": ["Advisor: Dr. Christo Z. Christov", "Dissertation: Multilevel Computational Investigation into the Dynamics and Reaction Mechanisms of Non-Heme Iron and 2-Oxoglutarate Dependent Enzymes"]
     },
@@ -113,11 +119,11 @@
       "location": "Nagpur, India",
       "area": "Chemical Engineering",
       "studyType": "B.Tech",
-      "startDate": "2014-06-01",
+      "startDate": "2013-07-01",
       "endDate": "2017-05-01",
-      "score": "",
+      "score": "GPA: 8.48/10.00",
       "courses": [],
-      "highlights": []
+      "highlights": ["Priyadarshini Institute of Engineering & Technology, Nagpur"]
     }
   ],
   "awards": [
@@ -186,6 +192,12 @@
       "date": "2015-01-01",
       "awarder": "Unnati 15, Priyadarshini College of Engineering",
       "summary": ""
+    },
+    {
+      "title": "International Mathematics Olympiad — 155th State Rank (Maharashtra)",
+      "date": "2012-01-01",
+      "awarder": "International Mathematics Olympiad",
+      "summary": ""
     }
   ],
   "skills": [
@@ -197,6 +209,7 @@
         "PES Scans",
         "Metadynamics",
         "Umbrella Sampling",
+        "Free Energy Perturbation (FEP)",
         "ChemShell",
         "ORCA",
         "DLPNO-CCSD(T)"
@@ -208,12 +221,15 @@
       "icon": "fa-solid fa-dna",
       "keywords": [
         "AMBER",
+        "GROMACS",
+        "CHARMM",
         "NAMD",
         "OpenMM",
         "Force Field Development",
         "PCA",
         "DCCM",
-        "MM-GBSA/PBSA"
+        "MM-GBSA/PBSA",
+        "Molecular Docking"
       ]
     },
     {
@@ -236,6 +252,7 @@
         "Python",
         "Bash",
         "UNIX/Linux",
+        "MATLAB",
         "SLURM",
         "PBS",
         "ACCESS/XSEDE"
@@ -265,6 +282,11 @@
       "language": "Hindi",
       "fluency": "Native speaker",
       "icon": ""
+    },
+    {
+      "language": "Marathi",
+      "fluency": "Native speaker",
+      "icon": ""
     }
   ],
   "interests": [
@@ -275,7 +297,8 @@
         "Electric Fields in Enzymes",
         "Second Coordination Sphere",
         "Directed Evolution",
-        "Rational Enzyme Engineering"
+        "Rational Enzyme Engineering",
+        "Drug Discovery"
       ]
     },
     {
