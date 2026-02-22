@@ -21,11 +21,11 @@ nav_order: 4
 
 ## Research Mentoring
 
-### As a Postdoctoral Scholar (UCLA, 2023–Present)
-- Provide hands-on training in electric-field analysis, QM/MM reaction mechanism calculations, molecular dynamics simulations, and machine learning approaches for new graduate students in the Alexandrova Lab
-- Coordinate and supervise multiple projects within the lab's bio-subgroup, ensuring research aims are well-aligned and junior researchers receive clear guidance
-- Assist graduate and undergraduate students in writing manuscripts, responding to peer reviews, and applying for fellowships or computational grants
-- Advise mentees on research ideas/proposals, postgraduate plans, and academic networking strategies
+### As a Postdoctoral Scholar (UCLA, 2023–2025)
+- Mentored **6 researchers** — 4 graduate and 2 undergraduate students — in electric-field analysis, QM/MM reaction mechanism calculations, molecular dynamics simulations, and machine learning approaches, resulting in **3 co-authored publications** (with more in progress)
+- Coordinated and supervised multiple projects within the lab's bio-subgroup, ensuring research aims are well-aligned and junior researchers receive clear guidance
+- Assisted graduate and undergraduate students in writing manuscripts, responding to peer reviews, and applying for fellowships or computational grants
+- Advised mentees on research ideas/proposals, postgraduate plans, and academic networking strategies
 
 ### During Graduate Studies (Michigan Tech, 2018–2022)
 - Trained **3 incoming Ph.D. students** in force field parameter development, molecular dynamics, and QM/MM simulations; guided them through setting up HPC jobs, analyzing mechanistic pathways, and interpreting data

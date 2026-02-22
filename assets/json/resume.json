@@ -5,13 +5,13 @@
     "image": "",
     "email": "shobhitschaturvedi@gmail.com",
     "phone": "",
-    "summary": "Computational chemist investigating enzyme catalysis through electric fields, machine learning, and multiscale simulations. Postdoctoral Scholar at UCLA working on rational enzyme design.",
+    "summary": "Computational chemist with 7+ years of experience and 25+ publications investigating enzyme catalysis through electric fields, machine learning, and multiscale simulations. Postdoctoral Scholar at ETH Zurich working on quantum computing for biology, metalloenzyme engineering, and automated reaction network exploration.",
     "location": {
-      "address": "Department of Chemistry & Biochemistry",
-      "postalCode": "CA 90095",
-      "city": "Los Angeles",
-      "countryCode": "US",
-      "region": "California"
+      "address": "Department of Chemistry and Applied Biosciences",
+      "postalCode": "8093",
+      "city": "Zurich",
+      "countryCode": "CH",
+      "region": "Zurich"
     },
     "profiles": [
       {
@@ -28,11 +28,25 @@
   },
   "work": [
     {
+      "name": "ETH Zurich",
+      "position": "Postdoctoral Scholar",
+      "location": "Zurich, Switzerland",
+      "startDate": "2025-08-01",
+      "endDate": "",
+      "summary": "Department of Chemistry and Applied Biosciences",
+      "highlights": [
+        "Member of X-prize finalist team developing a high-performance pipeline for biological applications on Quantum Computers",
+        "Scaling Chemoton's capacity by integrating QM/MM support for automated reaction network exploration in enzyme catalysis",
+        "Collaborating with experimental teams to engineer Heme metalloenzyme P450 variants via Metal-Hydride Hydrogen Atom Transfer",
+        "Contributing to a multi-group initiative on catalytic mechanism and electronic structure of the Nitrogenase enzyme"
+      ]
+    },
+    {
       "name": "University of California, Los Angeles",
       "position": "Postdoctoral Scholar",
       "location": "Los Angeles, California, US",
       "startDate": "2023-01-01",
-      "endDate": "",
+      "endDate": "2025-07-01",
       "summary": "Department of Chemistry and Biochemistry. Advisor: Dr. Anastassia N. Alexandrova",
       "highlights": [
         "Pioneered 3D electric field mapping frameworks for enzyme catalysis",
@@ -40,6 +54,7 @@
         "Demonstrated electric field optimization through directed evolution of protoglobin",
         "Automated Bash/Python/HPC pipelines for ~4,000 enzyme variants and ~20,000 MD simulations",
         "Collaborated on drug discovery: FEP simulations and DFT for α-synuclein aggregation inhibitors",
+        "Mentored 6 researchers (4 graduate, 2 undergraduate), producing 3 co-authored publications",
         "Secured >$232K in ACCESS computational grants as PI/Co-PI"
       ]
     },
@@ -98,7 +113,7 @@
       "studyType": "Ph.D.",
       "startDate": "2018-01-01",
       "endDate": "2022-12-01",
-      "score": "GPA: 3.66/4.00",
+      "score": "GPA: 3.78/4.00",
       "courses": [],
       "highlights": ["Advisor: Dr. Christo Z. Christov", "Dissertation: Multilevel Computational Investigation into the Dynamics and Reaction Mechanisms of Non-Heme Iron and 2-Oxoglutarate Dependent Enzymes"]
     },
@@ -119,7 +134,7 @@
       "location": "Nagpur, India",
       "area": "Chemical Engineering",
       "studyType": "B.Tech",
-      "startDate": "2013-07-01",
+      "startDate": "2014-06-01",
       "endDate": "2017-05-01",
       "score": "GPA: 8.48/10.00",
       "courses": [],
@@ -229,7 +244,9 @@
         "PCA",
         "DCCM",
         "MM-GBSA/PBSA",
-        "Molecular Docking"
+        "Molecular Docking",
+        "Biomolecular Modeling",
+        "Structural Modeling"
       ]
     },
     {
@@ -268,7 +285,8 @@
         "ORCA",
         "NBO Analysis",
         "Spin Natural Orbitals",
-        "Electric Field Analysis"
+        "Electric Field Analysis",
+        "Electrostatics Method Development"
       ]
     }
   ],
@@ -308,7 +326,8 @@
         "Protein Dynamics",
         "Metalloenzymes",
         "Non-Heme Iron Enzymes",
-        "Epigenetic Enzymes"
+        "Epigenetic Enzymes",
+        "Quantum Computing for Biology"
       ]
     }
   ]

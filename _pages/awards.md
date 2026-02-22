@@ -55,7 +55,9 @@ I have secured over **$232,000** in computational resource allocations on nation
 3. **Chaturvedi, S. S.**, Wildey, J., Warner, C., Karabencheva-Christova, T. G., Christov, C. Z. "Second Coordination Sphere and Long-Range Interactions as Tools for Modulating HAT in a Histone Demethylase" — ACS National Meeting, Fall 2022, Virtual.
 4. **Chaturvedi, S. S.**, Wildey, J., Warner, C., Karabencheva-Christova, T. G., Christov, C. Z. "Iron Center Rearrangement in Catalytic Mechanism of Human Non-Heme Iron(II) Histone Demethylase PHF8" — ACS UPLS, Fall 2021, Marquette, USA.
 5. **Chaturvedi, S. S.**, Ramanan, R., Hu, J., Hausinger, R. P., Christov, C. Z. "Structural Determinants for Ethylene Formation and L-Arginine Hydroxylation Reaction Mechanism in the Ethylene-Forming Enzyme" — ACS National Meeting, Fall 2021, Virtual.
-6. **Chaturvedi, S. S.**, Ramanan, R., Karabencheva-Christova, T. G., Christov, C. Z. "Computational Insights into Catalytic Mechanism of N-epsilon-Methyl Lysine Demethylation by PHF8" — Michigan Tech Chemistry Poster Session, 2019 & ACS National Meeting, Fall 2019, San Diego, USA.
+6. **Chaturvedi, S. S.**, Ramanan, R., Karabencheva-Christova, T. G., Christov, C. Z. "Computational Insights into Catalytic Mechanism of N-epsilon-Methyl Lysine Demethylation by PHF8" — Michigan Tech Chemistry Poster Session, 2019, Houghton, USA.
+7. **Chaturvedi, S. S.**, Ramanan, R., Karabencheva-Christova, T. G., Christov, C. Z. "Computational Insights into Catalytic Mechanism of N-epsilon-Methyl Lysine Demethylation by PHF8" — ACS National Meeting, Fall 2019, Sci-Mix Session, San Diego, USA.
+8. **Chaturvedi, S. S.**, Ramanan, R., Karabencheva-Christova, T. G., Christov, C. Z. "Computational Insights into Catalytic Mechanism of N-epsilon-Methyl Lysine Demethylation by PHF8" — ACS National Meeting, Fall 2019, Bioinorganic Chemistry Session, San Diego, USA.
 
 ---
 
