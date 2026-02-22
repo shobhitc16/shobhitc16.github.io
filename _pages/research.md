@@ -40,9 +40,9 @@ A central theme of my work is understanding how second coordination sphere (SCS)
 
 ---
 
-## 4. Drug Discovery & Free Energy Simulations
+## 4. Drug Discovery, Artificial Metalloenzymes & Free Energy Simulations
 
-In collaboration with experimental groups, I apply advanced free energy perturbation (FEP) simulations and large-scale DFT calculations to investigate small-molecule binding to disease-relevant protein targets. A current focus involves characterizing the binding of inhibitors targeting &alpha;-synuclein aggregation — a key process in Parkinson's disease — to elucidate mechanisms of action and guide rational drug design. This work extends my electrostatics expertise toward therapeutic applications, bridging fundamental enzyme chemistry with translational drug discovery.
+In collaboration with experimental groups, I apply advanced free energy perturbation (FEP) simulations and large-scale DFT calculations to investigate small-molecule binding to disease-relevant protein targets. A current focus involves characterizing the binding of inhibitors targeting &alpha;-synuclein aggregation — a key process in Parkinson's disease — to elucidate mechanisms of action and guide rational drug design. In a separate collaborative effort, I contribute to the design of **artificial metalloenzymes** for sustainable chemistry, including Re(I)-catalyzed CO<sub>2</sub> photoreduction. These projects extend my electrostatics and enzyme engineering expertise toward therapeutic and sustainability applications.
 
 ---
 
