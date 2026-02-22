@@ -99,9 +99,7 @@
       "startDate": "2016-05-01",
       "endDate": "2016-06-01",
       "summary": "Department of Chemical Engineering. Advisor: Dr. Ateeque Malani",
-      "highlights": [
-        "Research internship on 'Mechanism of Kidney Stone Formation'"
-      ]
+      "highlights": ["Research internship on 'Mechanism of Kidney Stone Formation'"]
     }
   ],
   "education": [
@@ -115,7 +113,10 @@
       "endDate": "2022-12-01",
       "score": "GPA: 3.78/4.00",
       "courses": [],
-      "highlights": ["Advisor: Dr. Christo Z. Christov", "Dissertation: Multilevel Computational Investigation into the Dynamics and Reaction Mechanisms of Non-Heme Iron and 2-Oxoglutarate Dependent Enzymes"]
+      "highlights": [
+        "Advisor: Dr. Christo Z. Christov",
+        "Dissertation: Multilevel Computational Investigation into the Dynamics and Reaction Mechanisms of Non-Heme Iron and 2-Oxoglutarate Dependent Enzymes"
+      ]
     },
     {
       "institution": "Michigan Technological University",
@@ -220,15 +221,7 @@
       "name": "QM/MM Simulations",
       "level": "Expert",
       "icon": "fa-solid fa-atom",
-      "keywords": [
-        "PES Scans",
-        "Metadynamics",
-        "Umbrella Sampling",
-        "Free Energy Perturbation (FEP)",
-        "ChemShell",
-        "ORCA",
-        "DLPNO-CCSD(T)"
-      ]
+      "keywords": ["PES Scans", "Metadynamics", "Umbrella Sampling", "Free Energy Perturbation (FEP)", "ChemShell", "ORCA", "DLPNO-CCSD(T)"]
     },
     {
       "name": "Molecular Dynamics",
@@ -253,41 +246,19 @@
       "name": "Machine Learning",
       "level": "Advanced",
       "icon": "fa-solid fa-brain",
-      "keywords": [
-        "Predictive Modeling",
-        "Feature Engineering",
-        "Electric Field Fingerprints",
-        "Scikit-learn",
-        "PyTorch"
-      ]
+      "keywords": ["Predictive Modeling", "Feature Engineering", "Electric Field Fingerprints", "Scikit-learn", "PyTorch"]
     },
     {
       "name": "Programming & HPC",
       "level": "Advanced",
       "icon": "fa-solid fa-laptop-code",
-      "keywords": [
-        "Python",
-        "Bash",
-        "UNIX/Linux",
-        "MATLAB",
-        "SLURM",
-        "PBS",
-        "ACCESS/XSEDE"
-      ]
+      "keywords": ["Python", "Bash", "UNIX/Linux", "MATLAB", "SLURM", "PBS", "ACCESS/XSEDE"]
     },
     {
       "name": "Electronic Structure",
       "level": "Expert",
       "icon": "fa-solid fa-chart-line",
-      "keywords": [
-        "DFT",
-        "Gaussian",
-        "ORCA",
-        "NBO Analysis",
-        "Spin Natural Orbitals",
-        "Electric Field Analysis",
-        "Electrostatics Method Development"
-      ]
+      "keywords": ["DFT", "Gaussian", "ORCA", "NBO Analysis", "Spin Natural Orbitals", "Electric Field Analysis", "Electrostatics Method Development"]
     }
   ],
   "languages": [
@@ -311,24 +282,12 @@
     {
       "name": "Enzyme Catalysis & Design",
       "icon": "fa-solid fa-flask",
-      "keywords": [
-        "Electric Fields in Enzymes",
-        "Second Coordination Sphere",
-        "Directed Evolution",
-        "Rational Enzyme Engineering",
-        "Drug Discovery"
-      ]
+      "keywords": ["Electric Fields in Enzymes", "Second Coordination Sphere", "Directed Evolution", "Rational Enzyme Engineering", "Drug Discovery"]
     },
     {
       "name": "Computational Biophysics",
       "icon": "fa-solid fa-microscope",
-      "keywords": [
-        "Protein Dynamics",
-        "Metalloenzymes",
-        "Non-Heme Iron Enzymes",
-        "Epigenetic Enzymes",
-        "Quantum Computing for Biology"
-      ]
+      "keywords": ["Protein Dynamics", "Metalloenzymes", "Non-Heme Iron Enzymes", "Epigenetic Enzymes", "Quantum Computing for Biology"]
     }
   ]
 }

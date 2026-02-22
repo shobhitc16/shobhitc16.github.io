@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our comprehensive review on **electric fields in enzyme catalysis** has been published in *Chemical Reviews* (2025). This review covers the theory, computational methods, and experimental measurements of electric fields in enzymatic systems.
+Our comprehensive review on **electric fields in enzyme catalysis** has been published in _Chemical Reviews_ (2025). This review covers the theory, computational methods, and experimental measurements of electric fields in enzymatic systems.
