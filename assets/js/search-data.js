@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-research",
           title: "research",
-          description: "Research areas spanning computational chemistry, enzyme design, and machine learning.",
+          description: "Research areas spanning computational chemistry, enzyme design, machine learning, and quantum computing.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/research/";
@@ -65,6 +65,12 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-our-comprehensive-review-on-electric-fields-in-enzyme-catalysis-has-been-published-in-chemical-reviews-2025-this-review-covers-the-theory-computational-methods-and-experimental-measurements-of-electric-fields-in-enzymatic-systems",
           title: 'Our comprehensive review on electric fields in enzyme catalysis has been published in...',
+          description: "",
+          section: "News",},{id: "news-pycpet-our-open-source-python-toolbox-for-computing-heterogeneous-3d-protein-electric-fields-has-been-published-in-the-journal-of-chemical-theory-and-computation-jctc-2025",
+          title: 'PyCPET — our open-source Python toolbox for computing heterogeneous 3D protein electric fields...',
+          description: "",
+          section: "News",},{id: "news-joined-eth-zurich-as-a-postdoctoral-scholar-in-the-department-of-chemistry-and-applied-biosciences-working-on-quantum-computing-for-biology-automated-reaction-network-exploration-and-metalloenzyme-engineering",
+          title: 'Joined ETH Zurich as a Postdoctoral Scholar in the Department of Chemistry and...',
           description: "",
           section: "News",},{
         id: 'social-cv',
