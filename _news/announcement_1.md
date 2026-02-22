@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2025-01-15
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Our comprehensive review on **electric fields in enzyme catalysis** has been published in *Chemical Reviews* (2025). This review covers the theory, computational methods, and experimental measurements of electric fields in enzymatic systems.

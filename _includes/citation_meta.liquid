@@ -1,0 +1,22 @@
+<!-- Highwire Press citation meta tags for Google Scholar indexing -->
+<!-- These tags help Google Scholar discover and index publications -->
+{% if page.layout == 'bib' or page.citation_title %}
+  <meta name="citation_title" content="{{ page.citation_title | default: page.title }}">
+  {% if page.citation_author %}
+    {% for author in page.citation_author %}
+      <meta name="citation_author" content="{{ author }}">
+    {% endfor %}
+  {% endif %}
+  {% if page.citation_publication_date %}
+    <meta name="citation_publication_date" content="{{ page.citation_publication_date }}">
+  {% endif %}
+  {% if page.citation_journal_title %}
+    <meta name="citation_journal_title" content="{{ page.citation_journal_title }}">
+  {% endif %}
+  {% if page.citation_doi %}
+    <meta name="citation_doi" content="{{ page.citation_doi }}">
+  {% endif %}
+  {% if page.citation_pdf_url %}
+    <meta name="citation_pdf_url" content="{{ page.citation_pdf_url }}">
+  {% endif %}
+{% endif %}

@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2024-06-15
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Our paper on **electric field evolution through directed evolution of protoglobin** for carbene transfer has been published in *J. Am. Chem. Soc.* 2024, 146, 16670–16680.

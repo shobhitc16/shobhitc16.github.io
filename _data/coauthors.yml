@@ -1,34 +1,27 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"alexandrova":
+  - firstname: ["Anastassia", "Anastassia N.", "A. N."]
+    url: https://www.chemistry.ucla.edu/directory/alexandrova-anastassia-n
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"christov":
+  - firstname: ["Christo", "Christo Z.", "C. Z."]
+    url: https://www.mtu.edu/chemistry/department/faculty/christov/
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"karabencheva-christova":
+  - firstname: ["Tatyana", "Tatyana G.", "Tatayana G."]
+    url: https://www.mtu.edu/chemistry/department/faculty/karabencheva-christova/
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"schofield":
+  - firstname: ["Christopher", "Christopher J.", "C. J."]
+    url: https://www.chem.ox.ac.uk/people/christopher-schofield
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"lehnert":
+  - firstname: ["Nicolai", "N."]
+    url: https://lsa.umich.edu/chem/people/faculty/lehnert.html
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"hausinger":
+  - firstname: ["Robert", "Robert P.", "R. P."]
+    url: https://bmb.natsci.msu.edu/faculty/robert-p-hausinger/
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
-
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"hu":
+  - firstname: ["Jian", "J."]
+    url: https://www.mtu.edu/chemistry/department/faculty/hu/
