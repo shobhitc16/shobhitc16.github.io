@@ -30,15 +30,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-teaching-amp-mentoring",
-          title: "teaching &amp; mentoring",
+        },{id: "nav-teaching",
+          title: "teaching",
           description: "Teaching experience, mentoring activities, and professional service.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "nav-awards-amp-grants",
-          title: "awards &amp; grants",
+        },{id: "nav-awards",
+          title: "awards",
           description: "Awards, fellowships, computational grants, and professional activities.",
           section: "Navigation",
           handler: () => {
