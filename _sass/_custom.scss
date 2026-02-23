@@ -85,12 +85,164 @@ header.post-header h1 {
   }
 }
 
-// Publications page: year labels
+// Publications page: year labels and card-like entries
 .publications {
   h2.bibliography {
-    font-size: 2rem;
-    font-weight: 300;
+    font-size: 1.75rem;
+    font-weight: 400;
     color: var(--global-theme-color);
-    border-bottom: none;
+    border-top: none;
+    border-bottom: 2px solid var(--global-theme-color);
+    padding-bottom: 0.4rem;
+    padding-top: 0;
+    margin-top: 2.5rem;
+    margin-bottom: 1.2rem;
+    text-align: left;
+  }
+
+  ol.bibliography li {
+    margin-bottom: 1.5rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--global-divider-color);
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    // Better title styling
+    .title {
+      font-size: 1.05rem;
+      line-height: 1.4;
+      margin-bottom: 0.3rem;
+    }
+
+    // Author list styling
+    .author {
+      font-size: 0.9rem;
+      color: var(--global-text-color-light);
+      margin-bottom: 0.2rem;
+    }
+
+    // Journal/periodical styling
+    .periodical {
+      font-size: 0.9rem;
+      margin-bottom: 0.2rem;
+    }
+
+    // Better link buttons
+    .links {
+      margin-top: 0.4rem;
+
+      a.btn {
+        font-size: 0.78rem;
+        padding: 0.15rem 0.6rem;
+        margin-right: 0.25rem;
+        margin-bottom: 0.25rem;
+        border-radius: 3px;
+      }
+
+      a.award.btn {
+        font-weight: 600;
+      }
+    }
+
+    // Better badge spacing
+    .badges {
+      margin-top: 0.3rem;
+    }
+
+    // Preview image sizing
+    .preview {
+      max-width: 100%;
+      height: auto;
+    }
+
+    // Abbreviation badge refinement
+    .abbr abbr {
+      font-size: 0.75rem;
+      padding: 0.2rem 0.6rem;
+      letter-spacing: 0.03em;
+    }
+  }
+}
+
+// Research page: key publications list styling
+.post-content {
+  // Style the "Key publications:" label
+  strong:only-child {
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 0.3rem;
+    font-size: 0.95rem;
+    color: var(--global-theme-color);
+  }
+
+  // Style publication citation lists on research page
+  ul {
+    padding-left: 1.2rem;
+
+    li {
+      font-size: 0.92rem;
+      line-height: 1.5;
+      color: var(--global-text-color-light);
+
+      em {
+        color: var(--global-text-color);
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+// Awards page: table styling
+.post-content {
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1.5rem;
+    font-size: 0.92rem;
+
+    thead {
+      th {
+        background-color: var(--global-theme-color);
+        color: white;
+        font-weight: 600;
+        padding: 0.6rem 0.8rem;
+        text-align: left;
+        border-bottom: 2px solid var(--global-theme-color);
+      }
+    }
+
+    tbody {
+      tr {
+        border-bottom: 1px solid var(--global-divider-color);
+
+        &:nth-child(even) {
+          background-color: var(--global-bg-color);
+        }
+
+        &:hover {
+          background-color: rgba(var(--global-theme-color-rgb, 0, 123, 255), 0.05);
+        }
+      }
+
+      td {
+        padding: 0.5rem 0.8rem;
+        vertical-align: top;
+      }
+    }
+  }
+}
+
+// Teaching page: better section spacing
+.post-content {
+  // Conference presentation numbering
+  ol {
+    padding-left: 1.5rem;
+
+    li {
+      margin-bottom: 0.5rem;
+      line-height: 1.5;
+    }
   }
 }

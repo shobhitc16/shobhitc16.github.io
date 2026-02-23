@@ -1,9 +1,81 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+# ─── ACS Journals (blue tones) ───
+"JACS":
+  url: https://pubs.acs.org/journal/jacsat
+  color: "#0047AB"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"JACS Au":
+  url: https://pubs.acs.org/journal/jaaucr
+  color: "#1565C0"
 
-"Vision":
-  color: "#009f36"
+"ACS Catal.":
+  url: https://pubs.acs.org/journal/accacs
+  color: "#1976D2"
+
+"ACS Cent. Sci.":
+  url: https://pubs.acs.org/journal/acscii
+  color: "#0D47A1"
+
+"JCTC":
+  url: https://pubs.acs.org/journal/jctcce
+  color: "#2196F3"
+
+"Inorg. Chem.":
+  url: https://pubs.acs.org/journal/inocaj
+  color: "#1E88E5"
+
+"Chem. Rev.":
+  url: https://pubs.acs.org/journal/chreay
+  color: "#0D47A1"
+
+"JPCA":
+  url: https://pubs.acs.org/journal/jpcafh
+  color: "#42A5F5"
+
+# ─── RSC Journals (red/crimson tones) ───
+"Chem. Sci.":
+  url: https://www.rsc.org/journals-books-databases/about-journals/chemical-science/
+  color: "#B71C1C"
+
+"PCCP":
+  url: https://www.rsc.org/journals-books-databases/about-journals/pccp/
+  color: "#C62828"
+
+"Org. Biomol. Chem.":
+  url: https://www.rsc.org/journals-books-databases/about-journals/organic-biomolecular-chemistry/
+  color: "#D32F2F"
+
+"Chem. Commun.":
+  url: https://www.rsc.org/journals-books-databases/about-journals/chemical-communications/
+  color: "#E53935"
+
+# ─── Wiley Journals (teal/green tones) ───
+"Chem. Eur. J.":
+  url: https://chemistry-europe.onlinelibrary.wiley.com/journal/15213765
+  color: "#00695C"
+
+"ChemPhysChem":
+  url: https://chemistry-europe.onlinelibrary.wiley.com/journal/14397641
+  color: "#00796B"
+
+"Adv. Prot. Chem.":
+  url: https://onlinelibrary.wiley.com/journal/27514439
+  color: "#00897B"
+
+# ─── Cell Press ───
+"Chem Catal.":
+  url: https://www.cell.com/chem-catalysis/home
+  color: "#6A1B9A"
+
+# ─── Springer Nature ───
+"JBIC":
+  url: https://www.springer.com/journal/775
+  color: "#F57F17"
+
+# ─── Preprints ───
+"ChemRxiv":
+  url: https://chemrxiv.org/
+  color: "#546E7A"
+
+# ─── Thesis ───
+"Ph.D. Thesis":
+  color: "#37474F"
