@@ -17,28 +17,35 @@ This program is organized around three interconnected questions: _Why_ do enzyme
 
 _Why do enzymes catalyze specific reactions with extraordinary selectivity?_
 
-The foundation of my research is uncovering the physical principles by which protein scaffolds control catalytic outcomes — and discovering **previously unknown chemistry** hidden within enzyme active sites. I combine **hybrid QM/MM simulations** at multiple levels of theory (DFT, DLPNO-CCSD(T)), extensive **molecular dynamics** (500 ns–1 &mu;s), **dynamic 3D electric field mapping**, and **automated reaction network exploration** to reveal how electrostatics, conformational dynamics, correlated motions, and long-range interactions collectively govern enzymatic selectivity, efficiency, and the potential for novel reactivity.
+The foundation of my research is uncovering the physical principles by which protein scaffolds control catalytic outcomes — and discovering previously unknown chemistry hidden within enzyme active sites. I have combined hybrid QM/MM simulations at multiple levels of theory (DFT, DLPNO-CCSD(T)), extensive molecular dynamics (500 ns–1 &mu;s), dynamic 3D electric field mapping, and automated reaction network exploration to reveal how electrostatics, conformational dynamics, correlated motions, and long-range interactions collectively govern enzymatic selectivity, efficiency, and the potential for novel reactivity.
 
-**Novel reaction mechanisms and catalytic discovery.** A major focus is the non-heme iron and 2-oxoglutarate (2OG)-dependent enzyme superfamily — catalysts of hydroxylation, demethylation, halogenation, and desaturation reactions central to epigenetic regulation, DNA repair, and biosynthesis. I have uncovered how coordination dynamics at the iron center, substrate reorientation, and second coordination sphere interactions drive catalytic diversity. Notably, I predicted a novel bicarbonate intermediate in the ethylene-forming enzyme — a finding subsequently **validated through experimental characterization** (Copeland et al., _Science_ 2021, 373, 1489). I also discovered **catalytic bifurcation** pathways where a single enzyme active site can steer reactions toward entirely different products depending on the dynamic electric field environment.
+#### Novel reaction mechanisms and catalytic discovery
 
-**Conformational dynamics and allosteric control.** Using microsecond-scale MD simulations, I characterize **conformational landscapes, correlated motions, and allosteric communication pathways** that modulate catalysis. These studies reveal how long-range protein dynamics — far from the active site — influence reaction outcomes, providing the dynamic context in which electric fields operate. I have also developed and validated **force field parameters** for metal centers in metalloenzymes, enabling accurate classical simulations of these challenging systems.
+A major focus is the non-heme iron and 2-oxoglutarate (2OG)-dependent enzyme superfamily — catalysts of hydroxylation, demethylation, halogenation, and desaturation reactions central to epigenetic regulation, DNA repair, and biosynthesis. I have uncovered how coordination dynamics at the iron center, substrate reorientation, and second coordination sphere interactions drive catalytic diversity. Notably, I predicted a **novel bicarbonate intermediate** in the ethylene-forming enzyme — a finding subsequently validated through experimental characterization (Copeland et al., _Science_ 2021, 373, 1489). I also showed how the **protein environment controls dioxygen binding** across structurally distinct non-heme iron enzymes, and how **external electric fields** can switch an enzyme between entirely different reaction outcomes.
 
-**Dynamic 3D electric field mapping.** A central innovation is the mapping of **dynamic, three-dimensional electric fields** within enzyme active sites — quantifying the electrostatic preorganization that protein scaffolds impose on catalytic centers. These fields, intrinsically tied to protein conformational fluctuations, serve as quantitative descriptors of catalytic potential. I have shown that dynamic EF components, while dormant under native conditions, can harbor latent compatibility with **non-native catalytic functions** — providing a physical basis for how enzymes can be evolved toward new chemistry.
+#### Conformational dynamics and allosteric control
 
-**Automated reaction network exploration.** Beyond case-by-case studies, I integrate QM/MM methods with systematic search algorithms (**Chemoton**) to explore reaction networks without human bias — enabling the discovery of **undiscovered enzyme chemistry** at scale. This approach systematically maps the space of possible reactions an enzyme can catalyze, identifying pathways that would be missed by hypothesis-driven investigations alone.
+Using microsecond-scale MD simulations, I have characterized conformational landscapes, **correlated motions**, and **allosteric communication pathways** that modulate catalysis. These studies revealed how long-range protein dynamics — far from the active site — influence reaction outcomes, providing the dynamic context in which electric fields operate. I have also developed and validated **force field parameters** for metal centers in metalloenzymes, enabling accurate classical simulations of these challenging systems.
+
+#### Dynamic 3D electric field mapping
+
+A central innovation is the mapping of dynamic, **three-dimensional electric fields** within enzyme active sites — quantifying the electrostatic preorganization that protein scaffolds impose on catalytic centers. These fields, intrinsically tied to protein conformational fluctuations, serve as quantitative descriptors of catalytic potential. I have shown that dynamic EF components, while dormant under native conditions, can harbor latent compatibility with **non-native catalytic functions** — providing a physical basis for how enzymes can be evolved toward new chemistry.
+
+#### Automated reaction network exploration
+
+Beyond case-by-case studies, I am currently integrating QM/MM methods with systematic search algorithms (**Chemoton**) to explore reaction networks without human bias — enabling the discovery of undiscovered enzyme chemistry at scale. This ongoing work at ETH Zurich systematically maps the space of possible reactions an enzyme can catalyze, identifying pathways that would be missed by hypothesis-driven investigations alone.
 
 **Key publications:**
 
 - _ACS Catal._ 2020, 10, 1195–1209 (Iron center rearrangement in histone demethylase PHF8)
 - _ACS Catal._ 2021, 11, 1578–1592 (Ethylene-forming enzyme: novel pathway validated in _Science_)
-- _Chem. Eur. J._ 2023, 29, e202203713 (Mechanistic bifurcation in isopenicillin N synthase)
-- _JACS Au_ 2022, 2, 2326–2340 (QM/MM mechanism of isopenicillin N synthase)
-- _JACS Au_ 2022, 2, 2169–2186 (Correlated motions and SCS modulation in histone demethylase)
+- _JACS Au_ 2022, 2, 2169–2186 (Second coordination sphere modulation in histone demethylase)
 - _ACS Central Science_ 2020, 6, 795–814 (Selectivity in DNA repair oxygenases)
+- _Chem. Eur. J._ 2023, 29, e202300138 (Protein environment controls dioxygen binding in non-heme iron enzymes)
 - _Chem Catalysis_ 2023, 3, 100732 (Catalytic strategy of the FTO obesity enzyme)
 - _Inorg. Chem._ 2024, 63, 10737–10755 (Second coordination sphere control in KDM2A)
 - _Phys. Chem. Chem. Phys._ 2023, 25, 13772–13783 (External electric field control of reactivity)
-- _ChemPhysChem_ 2021, 22, 1073–1081 (Molecular dynamics of lipoxygenase)
+- _Chem. Sci._ 2020, 11, 9950–9961 (Substrate dynamics and correlated motions in KDM4A)
 - _Chem. Eur. J._ 2019, 25, 5422–5426 (Conformational dynamics in KDM7 demethylases)
 
 ---
@@ -47,15 +54,23 @@ The foundation of my research is uncovering the physical principles by which pro
 
 _How can we predict catalytic function and design enzymes with new capabilities?_
 
-To translate fundamental understanding into predictive power and practical enzyme design, I develop **computational methods**, **open-source software**, and **machine learning** approaches that bridge mechanistic insight with engineering.
+To translate fundamental understanding into predictive power and practical enzyme design, I have developed computational methods, open-source software, and machine learning approaches that bridge mechanistic insight with engineering.
 
-**Machine learning for enzyme function prediction.** Applying ML to electric field fingerprints, I showed that models can predict and classify enzymatic function with up to **84% accuracy** — distinguishing monooxygenases, peroxidases, and catalases from electrostatics alone, without reliance on sequence or structural features. These methods reveal that electrostatic signatures are the **physical basis of functional divergence** across enzyme families, opening a new avenue for computational enzyme classification. By identifying enzymes with multi-reactive electric fields — fields that support alternative reaction pathways not dominant under native conditions — ML enables the **prediction of evolutionary starting points** for developing new reactivity.
+#### Machine learning for enzyme function prediction
 
-**Open-source software for electric field analysis.** This program led to the development of **PyCPET**, an open-source toolbox for computing heterogeneous 3D protein electric fields and their dynamics. PyCPET integrates molecular dynamics, topological analysis, unsupervised clustering, and QM/MM calculations into a unified pipeline, making electric field analysis accessible to the broader enzyme science community.
+Applying ML to electric field fingerprints, I showed that models can predict and classify enzymatic function with up to **84% accuracy** — distinguishing monooxygenases, peroxidases, and catalases from electrostatics alone, without reliance on sequence or structural features. These methods reveal that electrostatic signatures are the **physical basis of functional divergence** across enzyme families, opening a new avenue for computational enzyme classification. By identifying enzymes with multi-reactive electric fields — fields that support alternative reaction pathways not dominant under native conditions — ML enables the **prediction of evolutionary starting points** for developing new reactivity.
 
-**Rational enzyme design through second coordination sphere engineering.** I have shown that the **second coordination sphere** — residues beyond the immediate active site — exerts powerful control over catalysis through modulation of electric field landscapes, correlated motions, and substrate positioning. A key demonstration is my analysis of **directed evolution in protoglobin**, where I showed that laboratory evolution optimizes the enzyme's electric field to support non-native cyclopropanation catalysis — revealing that evolution operates on the electrostatic environment, not just on individual residues.
+#### Open-source software for electric field analysis
 
-**Inverse enzyme design.** Building on these insights, my long-term goal is **inverse enzyme design**: starting from a desired catalytic outcome, identifying the optimal electric field profile, and using ML with protein structure prediction (AlphaFold, diffusion models) to generate scaffolds that produce that field. This shifts the paradigm from sequence-first to **field-first** design strategies, providing a scalable framework for engineering enzymes with new-to-nature functions.
+This program led to the development of **PyCPET**, an open-source toolbox for computing heterogeneous 3D protein electric fields and their dynamics. PyCPET integrates molecular dynamics, topological analysis, unsupervised clustering, and QM/MM calculations into a unified pipeline, making electric field analysis accessible to the broader enzyme science community.
+
+#### Rational enzyme design through second coordination sphere engineering
+
+I have shown that the second coordination sphere — residues beyond the immediate active site — exerts powerful control over catalysis through modulation of electric field landscapes, correlated motions, and substrate positioning. A key demonstration is my analysis of **directed evolution in protoglobin**, where I showed that laboratory evolution optimizes the enzyme's electric field to support non-native cyclopropanation catalysis — revealing that evolution operates on the electrostatic environment, not just on individual residues.
+
+#### Inverse enzyme design
+
+Building on these insights, my long-term goal is **inverse enzyme design**: starting from a desired catalytic outcome, identifying the optimal electric field profile, and using ML with protein structure prediction (AlphaFold, diffusion models) to generate scaffolds that produce that field. This shifts the paradigm from sequence-first to **field-first** design strategies, providing a scalable framework for engineering enzymes with new-to-nature functions.
 
 **Key publications:**
 
@@ -65,8 +80,6 @@ To translate fundamental understanding into predictive power and practical enzym
 - _J. Am. Chem. Soc._ 2024, 146, 16670–16680 (Electric field optimization in directed evolution)
 - _J. Chem. Theory Comput._ 2025, 21, 4299–4308 (PyCPET: open-source EF software)
 - _Chemical Science_ 2023, 14, 10997–11011 (From random to rational enzyme design)
-- _Chemical Science_ 2023, 14, 8027–8046 (Review: second coordination sphere in metalloenzymes)
-- _ACS Central Science_ 2020, 6, 2160–2167 (SCS effects in lipoxygenase)
 
 ---
 
@@ -74,13 +87,19 @@ To translate fundamental understanding into predictive power and practical enzym
 
 _What for — how can these insights drive real-world impact in health, energy, and sustainability?_
 
-My fundamental and methodological research converges on applications with direct societal relevance, spanning **quantum computing for biology**, **drug discovery**, **artificial metalloenzyme design**, and **sustainable catalysis**.
+My fundamental and methodological research converges on applications with direct societal relevance, spanning quantum computing for biology, drug discovery, artificial metalloenzyme design, and sustainable catalysis.
 
-**Quantum computing for biological applications.** At ETH Zurich, as part of an **XPRIZE finalist team**, I develop high-performance pipelines for biological applications on quantum computers — bridging quantum chemistry with biological modeling to tackle problems intractable by classical methods, such as accurate treatment of strongly correlated metal centers in metalloenzymes.
+#### Quantum computing for biological applications
 
-**Metalloenzyme engineering and sustainable catalysis.** I apply electric field-guided and second coordination sphere engineering strategies to both **heme and non-heme metalloenzymes** — including electric field-based modification of the ethylene-forming enzyme, SCS engineering of the histone demethylase PHF8, and rational design of **cytochrome P450** variants for selective chemical transformations. I contribute to a multi-group initiative elucidating the catalytic mechanism and electronic structure of **nitrogenase** — one of the most challenging problems in bioinorganic chemistry, with direct implications for sustainable nitrogen fixation. I also contribute to the design of **artificial metalloenzymes** for CO<sub>2</sub> capture and conversion, including Re(I)-catalyzed CO<sub>2</sub> photoreduction — extending electric field and mechanistic insights from natural enzymes to engineered catalysts for green chemistry.
+At ETH Zurich, as part of an **XPRIZE finalist team**, I am developing high-performance pipelines for biological applications on quantum computers — bridging quantum chemistry with biological modeling to tackle problems intractable by classical methods, such as accurate treatment of strongly correlated metal centers in metalloenzymes.
 
-**Drug discovery and therapeutic applications.** I apply **free energy perturbation** (FEP) simulations and large-scale DFT calculations to characterize inhibitor binding to &alpha;-synuclein aggregation targets in Parkinson's disease, translating fundamental mechanistic understanding into therapeutic impact.
+#### Metalloenzyme engineering and sustainable catalysis
+
+I have applied electric field-guided and second coordination sphere engineering strategies to both **heme and non-heme metalloenzymes** — including electric field-based modification of the ethylene-forming enzyme and SCS engineering of the histone demethylase PHF8. At ETH Zurich, I am currently collaborating on rational design of **cytochrome P450** variants for selective chemical transformations and contributing to a multi-group initiative elucidating the catalytic mechanism and electronic structure of **nitrogenase** — one of the most challenging problems in bioinorganic chemistry, with direct implications for sustainable nitrogen fixation. I also contribute to the design of **artificial metalloenzymes** for CO<sub>2</sub> capture and conversion, including Re(I)-catalyzed CO<sub>2</sub> photoreduction — extending electric field and mechanistic insights from natural enzymes to engineered catalysts for green chemistry.
+
+#### Drug discovery and therapeutic applications
+
+I have applied **free energy perturbation** (FEP) simulations and large-scale DFT calculations to characterize inhibitor binding to &alpha;-synuclein aggregation targets in Parkinson's disease, translating fundamental mechanistic understanding into therapeutic impact.
 
 **Key publications:**
 
