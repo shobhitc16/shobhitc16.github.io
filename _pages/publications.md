@@ -15,16 +15,16 @@ nav_order: 2
     <p class="small text-muted">Publications</p>
   </div>
   <div class="col-md-3 col-6">
-    <h3 class="stats-number" style="color:var(--global-theme-color)">10</h3>
-    <p class="small text-muted">First-Author Papers</p>
+    <h3 class="stats-number" style="color:var(--global-theme-color)">690+</h3>
+    <p class="small text-muted">Total Citations</p>
   </div>
   <div class="col-md-3 col-6">
-    <h3 class="stats-number" style="color:var(--global-theme-color)">13+</h3>
-    <p class="small text-muted">Journals</p>
+    <h3 class="stats-number" style="color:var(--global-theme-color)">17</h3>
+    <p class="small text-muted">h-index</p>
   </div>
   <div class="col-md-3 col-6">
-    <h3 class="stats-number" style="color:var(--global-theme-color)">2018–2026</h3>
-    <p class="small text-muted">Publication Span</p>
+    <h3 class="stats-number" style="color:var(--global-theme-color)">21</h3>
+    <p class="small text-muted">i10-index</p>
   </div>
 </div>
 
