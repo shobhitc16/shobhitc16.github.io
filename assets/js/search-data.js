@@ -44,13 +44,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/awards/";
           },
-        },{id: "nav-blog",
-          title: "blog",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/blog/";
-          },
         },{id: "news-joined-the-alexandrova-group-at-ucla-as-a-postdoctoral-scholar-in-the-department-of-chemistry-amp-amp-biochemistry-excited-to-investigate-enzyme-catalysis-through-electric-fields-and-machine-learning",
           title: 'Joined the Alexandrova Group at UCLA as a Postdoctoral Scholar in the Department...',
           description: "",
