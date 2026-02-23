@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-research",
           title: "research",
-          description: "Discovering how protein scaffolds control enzyme catalysis — and translating these principles into enzyme engineering, machine learning tools, and sustainable chemistry.",
+          description: "Understanding enzyme catalysis, predicting and engineering enzyme function, and applying frontier methods toward sustainable chemistry and human health.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/research/";
