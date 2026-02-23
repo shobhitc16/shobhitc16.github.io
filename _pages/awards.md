@@ -7,6 +7,21 @@ nav: true
 nav_order: 5
 ---
 
+<div class="row text-center mb-4 stats-row">
+  <div class="col-md-4 col-6">
+    <h3 class="stats-number" style="color:var(--global-theme-color)">12+</h3>
+    <p class="small">Awards & Fellowships</p>
+  </div>
+  <div class="col-md-4 col-6">
+    <h3 class="stats-number" style="color:var(--global-theme-color)">$232K+</h3>
+    <p class="small">Computational Grants</p>
+  </div>
+  <div class="col-md-4 col-12">
+    <h3 class="stats-number" style="color:var(--global-theme-color)">11</h3>
+    <p class="small">Conference Talks</p>
+  </div>
+</div>
+
 ## Awards & Fellowships
 
 | Year      | Award                                                               | Organization                                    |

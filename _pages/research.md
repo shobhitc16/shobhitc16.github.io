@@ -11,17 +11,60 @@ Enzymes achieve extraordinary catalytic efficiency through the precise organizat
 
 This program is organized around three interconnected questions: _Why_ do enzymes catalyze specific reactions with such precision? _How_ can we predict and engineer catalytic function? And _what for_ — how can these insights drive real-world applications in health, energy, and sustainability?
 
+<div class="row mt-3 mb-4">
+  <div class="col-md-4 mb-3">
+    <a href="#understanding-enzyme-catalysis" class="text-decoration-none">
+      <div class="card research-pillar h-100 border-0 shadow-sm text-center p-4">
+        <i class="fas fa-atom fa-2x mb-2" style="color:var(--global-theme-color)"></i>
+        <h5 class="mb-2">Understanding Catalysis</h5>
+        <p class="small text-muted mb-0">Why do enzymes catalyze with such extraordinary precision and selectivity?</p>
+      </div>
+    </a>
+  </div>
+  <div class="col-md-4 mb-3">
+    <a href="#predicting--engineering-enzyme-function" class="text-decoration-none">
+      <div class="card research-pillar h-100 border-0 shadow-sm text-center p-4">
+        <i class="fas fa-brain fa-2x mb-2" style="color:var(--global-theme-color)"></i>
+        <h5 class="mb-2">Predicting & Engineering</h5>
+        <p class="small text-muted mb-0">How can we predict catalytic function and design enzymes with new capabilities?</p>
+      </div>
+    </a>
+  </div>
+  <div class="col-md-4 mb-3">
+    <a href="#frontier-applications" class="text-decoration-none">
+      <div class="card research-pillar h-100 border-0 shadow-sm text-center p-4">
+        <i class="fas fa-rocket fa-2x mb-2" style="color:var(--global-theme-color)"></i>
+        <h5 class="mb-2">Frontier Applications</h5>
+        <p class="small text-muted mb-0">Quantum computing, drug discovery, and sustainable catalysis for real-world impact.</p>
+      </div>
+    </a>
+  </div>
+</div>
+
 ---
 
-## Understanding Enzyme Catalysis
+## <i class="fas fa-atom"></i> Understanding Enzyme Catalysis
 
 _Why do enzymes catalyze specific reactions with extraordinary selectivity?_
 
+<div class="row mb-3">
+<div class="col-md-8">
+
 The foundation of my research is uncovering the physical principles by which protein scaffolds control catalytic outcomes — and discovering previously unknown chemistry hidden within enzyme active sites. I have combined hybrid QM/MM simulations at multiple levels of theory (DFT, DLPNO-CCSD(T)), extensive molecular dynamics (500 ns–1 &mu;s), dynamic 3D electric field mapping, and automated reaction network exploration to reveal how electrostatics, conformational dynamics, correlated motions, and long-range interactions collectively govern enzymatic selectivity, efficiency, and the potential for novel reactivity.
+
+</div>
+<div class="col-md-4">
+<img src="/assets/img/publication_preview/chaturvedi2020acscatal.jpg" class="img-fluid rounded shadow-sm" alt="PHF8 mechanism — iron center rearrangement">
+</div>
+</div>
 
 #### Novel reaction mechanisms and catalytic discovery
 
 A major focus is the non-heme iron and 2-oxoglutarate (2OG)-dependent enzyme superfamily — catalysts of hydroxylation, demethylation, halogenation, and desaturation reactions central to epigenetic regulation, DNA repair, and biosynthesis. I have uncovered how coordination dynamics at the iron center, substrate reorientation, and second coordination sphere interactions drive catalytic diversity. Notably, I predicted a **novel bicarbonate intermediate** in the ethylene-forming enzyme — a finding subsequently validated through experimental characterization (Copeland et al., _Science_ 2021, 373, 1489). I also showed how the **protein environment controls dioxygen binding** across structurally distinct non-heme iron enzymes, and how **external electric fields** can switch an enzyme between entirely different reaction outcomes.
+
+<div class="alert signature-result" style="border-left:4px solid var(--global-theme-color); background:rgba(var(--global-theme-color-rgb, 0, 123, 255),0.05);">
+  <i class="fas fa-star" style="color:var(--global-theme-color)"></i> <strong>Signature Result:</strong> Predicted a novel bicarbonate intermediate in the ethylene-forming enzyme — subsequently validated by experimental characterization published in <em>Science</em> (2021, 373, 1489).
+</div>
 
 #### Conformational dynamics and allosteric control
 
@@ -35,7 +78,8 @@ A central innovation is the mapping of dynamic, **three-dimensional electric fie
 
 Beyond case-by-case studies, I am currently integrating QM/MM methods with systematic search algorithms (**Chemoton**) to explore reaction networks without human bias — enabling the discovery of undiscovered enzyme chemistry at scale. This ongoing work at ETH Zurich systematically maps the space of possible reactions an enzyme can catalyze, identifying pathways that would be missed by hypothesis-driven investigations alone.
 
-**Key publications:**
+<details class="pub-list">
+<summary><strong>Key publications</strong></summary>
 
 - _ACS Catal._ 2020, 10, 1195–1209 (Iron center rearrangement in histone demethylase PHF8)
 - _ACS Catal._ 2021, 11, 1578–1592 (Ethylene-forming enzyme: novel pathway validated in _Science_)
@@ -48,13 +92,24 @@ Beyond case-by-case studies, I am currently integrating QM/MM methods with syste
 - _Chem. Sci._ 2020, 11, 9950–9961 (Substrate dynamics and correlated motions in KDM4A)
 - _Chem. Eur. J._ 2019, 25, 5422–5426 (Conformational dynamics in KDM7 demethylases)
 
+</details>
+
 ---
 
-## Predicting & Engineering Enzyme Function
+## <i class="fas fa-brain"></i> Predicting & Engineering Enzyme Function
 
 _How can we predict catalytic function and design enzymes with new capabilities?_
 
+<div class="row mb-3">
+<div class="col-md-8">
+
 To translate fundamental understanding into predictive power and practical enzyme design, I have developed computational methods, open-source software, and machine learning approaches that bridge mechanistic insight with engineering.
+
+</div>
+<div class="col-md-4">
+<img src="/assets/img/publication_preview/chaturvedi2023chemsci.gif" class="img-fluid rounded shadow-sm" alt="Rational enzyme design — electric field guided">
+</div>
+</div>
 
 #### Machine learning for enzyme function prediction
 
@@ -72,7 +127,8 @@ I have shown that the second coordination sphere — residues beyond the immedia
 
 Building on these insights, my long-term goal is **inverse enzyme design**: starting from a desired catalytic outcome, identifying the optimal electric field profile, and using ML with protein structure prediction (AlphaFold, diffusion models) to generate scaffolds that produce that field. This shifts the paradigm from sequence-first to **field-first** design strategies, providing a scalable framework for engineering enzymes with new-to-nature functions.
 
-**Key publications:**
+<details class="pub-list">
+<summary><strong>Key publications</strong></summary>
 
 - _Chem. Rev._ 2025, 125, 3772–3813 (Comprehensive review: methods for local fields in enzymes)
 - _J. Am. Chem. Soc._ 2025, 147, 32225–32237 (Distinct EFs enable common function across enzyme families)
@@ -81,13 +137,24 @@ Building on these insights, my long-term goal is **inverse enzyme design**: star
 - _J. Chem. Theory Comput._ 2025, 21, 4299–4308 (PyCPET: open-source EF software)
 - _Chemical Science_ 2023, 14, 10997–11011 (From random to rational enzyme design)
 
+</details>
+
 ---
 
-## Frontier Applications
+## <i class="fas fa-rocket"></i> Frontier Applications
 
 _What for — how can these insights drive real-world impact in health, energy, and sustainability?_
 
+<div class="row mb-3">
+<div class="col-md-8">
+
 My fundamental and methodological research converges on applications with direct societal relevance, spanning quantum computing for biology, drug discovery, artificial metalloenzyme design, and sustainable catalysis.
+
+</div>
+<div class="col-md-4">
+<img src="/assets/img/publication_preview/chaturvedi2023pccp.gif" class="img-fluid rounded shadow-sm" alt="Electric field control of reactivity">
+</div>
+</div>
 
 #### Quantum computing for biological applications
 
@@ -101,6 +168,9 @@ I have applied electric field-guided and second coordination sphere engineering 
 
 I have applied **free energy perturbation** (FEP) simulations and large-scale DFT calculations to characterize inhibitor binding to &alpha;-synuclein aggregation targets in Parkinson's disease, translating fundamental mechanistic understanding into therapeutic impact.
 
-**Key publications:**
+<details class="pub-list">
+<summary><strong>Key publications</strong></summary>
 
 - _ChemRxiv_ 2026 (Artificial metalloenzyme for Re(I)-catalyzed CO<sub>2</sub> photoreduction)
+
+</details>

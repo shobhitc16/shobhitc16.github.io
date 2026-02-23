@@ -7,6 +7,25 @@ nav: true
 nav_order: 4
 ---
 
+<div class="row text-center mb-4 stats-row">
+  <div class="col-md-3 col-6">
+    <h3 class="stats-number" style="color:var(--global-theme-color)">14+</h3>
+    <p class="small text-muted">Researchers Mentored</p>
+  </div>
+  <div class="col-md-3 col-6">
+    <h3 class="stats-number" style="color:var(--global-theme-color)">7</h3>
+    <p class="small text-muted">Co-authored Papers</p>
+  </div>
+  <div class="col-md-3 col-6">
+    <h3 class="stats-number" style="color:var(--global-theme-color)">3</h3>
+    <p class="small text-muted">Courses Taught</p>
+  </div>
+  <div class="col-md-3 col-6">
+    <h3 class="stats-number" style="color:var(--global-theme-color)">2</h3>
+    <p class="small text-muted">Institutions</p>
+  </div>
+</div>
+
 ## Teaching Experience
 
 ### Graduate Teaching Assistant — Michigan Technological University
