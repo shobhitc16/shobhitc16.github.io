@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-research",
           title: "research",
-          description: "Research areas spanning computational chemistry, enzyme design, machine learning, and quantum computing.",
+          description: "Discovering how protein scaffolds control enzyme catalysis — and translating these principles into enzyme engineering, machine learning tools, and sustainable chemistry.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/research/";
