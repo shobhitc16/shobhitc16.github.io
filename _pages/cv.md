@@ -7,6 +7,4 @@ nav_order: 3
 cv_pdf: /assets/pdf/Chaturvedi_CV.pdf
 cv_format: jsonresume
 description: Academic curriculum vitae of Shobhit S. Chaturvedi.
-toc:
-  sidebar: left
 ---

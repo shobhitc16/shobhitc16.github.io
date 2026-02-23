@@ -36,12 +36,12 @@ Currently a Postdoctoral Scholar at [ETH Zurich](https://chab.ethz.ch/en/) with 
 </div>
 
 <div class="mb-3">
-  <span class="badge rounded-pill bg-primary">QM/MM</span>
+  <span class="badge rounded-pill bg-primary">Enzyme Catalysis</span>
+  <span class="badge rounded-pill bg-primary">Electric Field Engineering</span>
+  <span class="badge rounded-pill bg-primary">Metalloenzyme Mechanisms</span>
+  <span class="badge rounded-pill bg-primary">ML for Enzymes</span>
+  <span class="badge rounded-pill bg-primary">Rational Enzyme Design</span>
+  <span class="badge rounded-pill bg-primary">QM/MM Simulations</span>
   <span class="badge rounded-pill bg-primary">Molecular Dynamics</span>
-  <span class="badge rounded-pill bg-primary">Machine Learning</span>
-  <span class="badge rounded-pill bg-primary">Electric Field Analysis</span>
   <span class="badge rounded-pill bg-primary">Quantum Computing</span>
-  <span class="badge rounded-pill bg-primary">Enzyme Design</span>
-  <span class="badge rounded-pill bg-primary">DFT</span>
-  <span class="badge rounded-pill bg-primary">Free Energy Methods</span>
 </div>

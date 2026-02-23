@@ -357,3 +357,46 @@ details.pub-list {
   font-size: 1.3rem;
   vertical-align: baseline;
 }
+
+// CV page: wider cards, better alignment
+.cv {
+  // Make cards stretch to full width
+  .card {
+    max-width: 100%;
+  }
+
+  // Date column alignment
+  .date-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 0.5rem;
+  }
+
+  // Consistent badge sizing for date ranges
+  .badge.danger-color-dark {
+    font-size: 0.75rem;
+    padding: 0.35rem 0.6rem;
+    white-space: nowrap;
+  }
+
+  // Consistent list item spacing
+  .list-group-item {
+    padding: 0.75rem 0.5rem;
+  }
+
+  // Highlight items alignment
+  .items {
+    margin-top: 0.4rem;
+    padding-left: 1.2rem;
+
+    li {
+      margin-bottom: 0.2rem;
+      font-size: 0.88rem;
+      line-height: 1.5;
+    }
+  }
+}
+
+// Publications page: stats row at top (reuse stats-row class)

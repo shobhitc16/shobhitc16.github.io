@@ -78,7 +78,7 @@ A central innovation is the mapping of dynamic, **three-dimensional electric fie
 
 Beyond case-by-case studies, I am currently integrating QM/MM methods with systematic search algorithms (**Chemoton**) to explore reaction networks without human bias — enabling the discovery of undiscovered enzyme chemistry at scale. This ongoing work at ETH Zurich systematically maps the space of possible reactions an enzyme can catalyze, identifying pathways that would be missed by hypothesis-driven investigations alone.
 
-<details class="pub-list">
+<details class="pub-list" markdown="1">
 <summary><strong>Key publications</strong></summary>
 
 - _ACS Catal._ 2020, 10, 1195–1209 (Iron center rearrangement in histone demethylase PHF8)
@@ -127,7 +127,7 @@ I have shown that the second coordination sphere — residues beyond the immedia
 
 Building on these insights, my long-term goal is **inverse enzyme design**: starting from a desired catalytic outcome, identifying the optimal electric field profile, and using ML with protein structure prediction (AlphaFold, diffusion models) to generate scaffolds that produce that field. This shifts the paradigm from sequence-first to **field-first** design strategies, providing a scalable framework for engineering enzymes with new-to-nature functions.
 
-<details class="pub-list">
+<details class="pub-list" markdown="1">
 <summary><strong>Key publications</strong></summary>
 
 - _Chem. Rev._ 2025, 125, 3772–3813 (Comprehensive review: methods for local fields in enzymes)
@@ -168,7 +168,7 @@ I have applied electric field-guided and second coordination sphere engineering 
 
 I have applied **free energy perturbation** (FEP) simulations and large-scale DFT calculations to characterize inhibitor binding to &alpha;-synuclein aggregation targets in Parkinson's disease, translating fundamental mechanistic understanding into therapeutic impact.
 
-<details class="pub-list">
+<details class="pub-list" markdown="1">
 <summary><strong>Key publications</strong></summary>
 
 - _ChemRxiv_ 2026 (Artificial metalloenzyme for Re(I)-catalyzed CO<sub>2</sub> photoreduction)
