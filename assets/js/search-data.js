@@ -23,13 +23,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-cv",
-          title: "CV",
-          description: "Academic curriculum vitae of Shobhit S. Chaturvedi.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
         },{id: "nav-teaching",
           title: "teaching",
           description: "Teaching experience, mentoring activities, and professional service.",
@@ -43,6 +36,13 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/awards/";
+          },
+        },{id: "nav-cv",
+          title: "CV",
+          description: "Academic curriculum vitae of Shobhit S. Chaturvedi.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
           },
         },{id: "news-joined-the-alexandrova-group-at-ucla-as-a-postdoctoral-scholar-in-the-department-of-chemistry-amp-amp-biochemistry-excited-to-investigate-enzyme-catalysis-through-electric-fields-and-machine-learning",
           title: 'Joined the Alexandrova Group at UCLA as a Postdoctoral Scholar in the Department...',
