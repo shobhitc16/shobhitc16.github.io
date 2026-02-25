@@ -4,7 +4,7 @@ permalink: /teaching/
 title: teaching
 description: Teaching experience, mentoring activities, and professional service.
 nav: true
-nav_order: 4
+nav_order: 3
 ---
 
 <div class="row text-center mb-4 stats-row">

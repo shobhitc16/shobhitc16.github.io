@@ -4,7 +4,7 @@ permalink: /awards/
 title: awards
 description: Awards, fellowships, computational grants, and professional activities.
 nav: true
-nav_order: 5
+nav_order: 4
 ---
 
 <div class="row text-center mb-4 stats-row">

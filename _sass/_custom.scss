@@ -71,6 +71,12 @@ header.post-header h1 {
 .about {
   .profile {
     margin-bottom: 1rem;
+
+    // Center face in profile image (face is in lower portion of photo)
+    img {
+      object-fit: cover;
+      object-position: center 30%;
+    }
   }
 
   .address {
@@ -254,8 +260,9 @@ header.post-header h1 {
 // Research pillar cards
 .card.research-pillar {
   transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
-  border: 1px solid transparent;
+  border: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -406,6 +413,29 @@ details.pub-list {
       margin-bottom: 0.2rem;
       font-size: 0.88rem;
       line-height: 1.5;
+    }
+  }
+}
+
+// CV page: section navigation TOC
+.cv-toc {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--global-divider-color);
+
+  .btn-outline-primary {
+    color: var(--global-theme-color);
+    border-color: var(--global-theme-color);
+    font-size: 0.82rem;
+    font-weight: 500;
+    padding: 0.25rem 0.7rem;
+    border-radius: 3px;
+
+    &:hover {
+      background-color: var(--global-theme-color);
+      color: white;
     }
   }
 }
