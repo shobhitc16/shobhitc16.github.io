@@ -256,11 +256,22 @@ header.post-header h1 {
   transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
   border: 1px solid transparent;
   background-color: var(--global-bg-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   &:hover {
     transform: translateY(-4px);
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
     border-color: var(--global-theme-color);
+  }
+
+  // Center the icon wrapper
+  .pillar-icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   }
 
   h5 {

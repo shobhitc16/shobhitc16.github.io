@@ -31,17 +31,23 @@ I am a computational chemist investigating how **protein scaffolds** control enz
 
 Currently a Postdoctoral Scholar at [ETH Zurich](https://chab.ethz.ch/en/) with [Prof. Markus Reiher](https://reiher.ethz.ch/), I work on quantum computing pipelines for biological applications, automated reaction network exploration, and rational metalloenzyme engineering. Previously at [UCLA](https://www.chemistry.ucla.edu/) with [Prof. Anastassia N. Alexandrova](https://www.chemistry.ucla.edu/directory/alexandrova-anastassia-n) (2023–2025), I developed computational frameworks mapping dynamic 3D electric field landscapes in enzyme active sites and built ML models that predict enzymatic function from electrostatic signatures. I received my Ph.D. from [Michigan Technological University](https://www.mtu.edu/chemistry/) (2022), where I elucidated metalloenzyme mechanisms with [Prof. Christo Z. Christov](https://www.mtu.edu/chemistry/department/faculty/christov/) — including novel pathways later validated experimentally in _Science_.
 
-<div class="alert alert-light border-start border-3 research-focus-banner" style="border-color:var(--global-theme-color)!important">
-  <strong>Research Focus:</strong> Enzyme catalysis · Electric field engineering · ML for enzymes · Quantum computing for biology
-</div>
-
-<div class="mb-3">
-  <span class="badge rounded-pill bg-primary">Enzyme Catalysis</span>
-  <span class="badge rounded-pill bg-primary">Electric Field Engineering</span>
-  <span class="badge rounded-pill bg-primary">Metalloenzyme Mechanisms</span>
-  <span class="badge rounded-pill bg-primary">ML for Enzymes</span>
-  <span class="badge rounded-pill bg-primary">Rational Enzyme Design</span>
-  <span class="badge rounded-pill bg-primary">QM/MM Simulations</span>
-  <span class="badge rounded-pill bg-primary">Molecular Dynamics</span>
-  <span class="badge rounded-pill bg-primary">Quantum Computing</span>
+<div class="row mt-3 mb-4">
+  <div class="col-md-4 mb-3">
+    <div class="card research-pillar h-100 border-0 shadow-sm p-3">
+      <h6 class="mb-1" style="color:var(--global-theme-color)">Understanding Catalysis — <em>Why?</em></h6>
+      <p class="small text-muted mb-0">Discovering how <strong>electrostatics, dynamics, and electronic structure</strong> within protein scaffolds govern enzymatic precision — and uncovering previously unknown chemistry.</p>
+    </div>
+  </div>
+  <div class="col-md-4 mb-3">
+    <div class="card research-pillar h-100 border-0 shadow-sm p-3">
+      <h6 class="mb-1" style="color:var(--global-theme-color)">Predicting & Engineering — <em>How?</em></h6>
+      <p class="small text-muted mb-0">Building <strong>ML models, open-source tools, and electric field frameworks</strong> that predict enzyme function and guide rational design of new catalytic capabilities.</p>
+    </div>
+  </div>
+  <div class="col-md-4 mb-3">
+    <div class="card research-pillar h-100 border-0 shadow-sm p-3">
+      <h6 class="mb-1" style="color:var(--global-theme-color)">Frontier Applications — <em>What for?</em></h6>
+      <p class="small text-muted mb-0">Translating mechanistic insights into <strong>quantum computing for biology, sustainable catalysis,</strong> and <strong>drug discovery</strong> for real-world impact.</p>
+    </div>
+  </div>
 </div>
