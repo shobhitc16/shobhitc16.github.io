@@ -72,10 +72,12 @@ header.post-header h1 {
   .profile {
     margin-bottom: 1rem;
 
-    // Center face in profile image (face is in lower portion of photo)
+    // Center face in profile image (face is below ornate ceiling)
     img {
+      max-height: 320px;
       object-fit: cover;
-      object-position: center 30%;
+      object-position: center 40%;
+      width: 100%;
     }
   }
 
