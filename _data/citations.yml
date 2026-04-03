@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-30'
+  last_updated: '2026-04-03'
 papers:
   9XyXnhIAAAAJ:3s1wT3WcHBgC:
     citations: 0
@@ -102,7 +102,7 @@ papers:
     title: Machine-learning prediction of protein function from the portrait of its intramolecular electric field
     year: '2024'
   9XyXnhIAAAAJ:ldfaerwXgEUC:
-    citations: 20
+    citations: 21
     title: Directed evolution of protoglobin optimizes the enzyme electric field
     year: '2024'
   9XyXnhIAAAAJ:mVmsd5A6BfQC:
@@ -118,7 +118,7 @@ papers:
     title: Structure-function relationships in KDM7 histone demethylases
     year: '2019'
   9XyXnhIAAAAJ:r0BpntZqJG4C:
-    citations: 39
+    citations: 40
     title: 'From Random to Rational: Improving Enzyme Design through Electric Fields, Second Coordination Sphere Interactions, and Conformational Dynamics'
     year: '2023'
   9XyXnhIAAAAJ:rO6llkc54NcC:
