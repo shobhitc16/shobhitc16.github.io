@@ -9,7 +9,7 @@ nav_order: 4
 
 <div class="row text-center mb-4 stats-row">
   <div class="col-md-4 col-6">
-    <h3 class="stats-number" style="color:var(--global-theme-color)">12+</h3>
+    <h3 class="stats-number" style="color:var(--global-theme-color)">13+</h3>
     <p class="small">Awards & Fellowships</p>
   </div>
   <div class="col-md-4 col-6">
@@ -24,8 +24,11 @@ nav_order: 4
 
 ## Awards & Fellowships
 
+### Graduate & Postdoctoral
+
 | Year      | Award                                                               | Organization                                    |
 | --------- | ------------------------------------------------------------------- | ----------------------------------------------- |
+| 2026      | **ETH Zürich Focus Grant** — two-month fellowship (CHF 10,106) supporting ERC Starting Grant preparation | ETH Zürich Grants Office                        |
 | 2024      | Poster Presentation Award                                           | SoCal TheoChem 2024, UC San Diego               |
 | 2022      | Doctoral Finishing Fellowship                                       | Michigan Technological University               |
 | 2022      | Health Research Institute Fellowship                                | Michigan Technological University               |
@@ -34,6 +37,11 @@ nav_order: 4
 | 2020      | Outstanding Graduate Student Summer Research Award                  | Dept. of Chemistry, Michigan Tech               |
 | 2019      | Travel Grant                                                        | Graduate Student Government, Michigan Tech      |
 | 2018      | AAAS/Science Program for Excellence in Science Award                | AAAS                                            |
+
+### Undergraduate
+
+| Year      | Award                                                               | Organization                                    |
+| --------- | ------------------------------------------------------------------- | ----------------------------------------------- |
 | 2016      | Rotary Youth Leadership Award                                       | Rotary Club of Nagpur                           |
 | 2016      | Project Exhibition Award (3rd Place)                                | NCOAT-NIRMITI, Priyadarshini Institute          |
 | 2015      | Oral Presentation Award (1st Place)                                 | Unnati 15, Priyadarshini College of Engineering |
@@ -43,14 +51,13 @@ nav_order: 4
 
 ## ACCESS/XSEDE Computational Grants
 
-I have secured over **$232,000** in computational resource allocations on national supercomputing facilities through the ACCESS (formerly XSEDE) program.
+Over **$232,500** in HPC allocations on national supercomputing facilities through the NSF ACCESS (formerly XSEDE) program — 7 awards (5 as PI, 2 as Co-PI).
 
-| Year | Grant ID                  | Role  | Estimated Value |
-| ---- | ------------------------- | ----- | --------------- |
-| 2025 | Maximize ACCESS CHE160054 | Co-PI | $121,706        |
-| 2024 | Maximize ACCESS CHE160054 | Co-PI | $36,522         |
-| 2024 | Discover ACCESS CHE240077 | PI    | $14,838         |
-| 2024 | Discover ACCESS CHE240053 | PI    | $14,838         |
+| Year        | Grant ID                                 | Role  | Estimated Value                                       |
+| ----------- | ---------------------------------------- | ----- | ----------------------------------------------------- |
+| 2024, 2025  | Maximize ACCESS CHE160054 (renewal)      | Co-PI | $158,228 combined ($121,706 in 2025; $36,522 in 2024) |
+| 2024        | Discover ACCESS CHE240077                | PI    | $14,838                                               |
+| 2024        | Discover ACCESS CHE240053                | PI    | $14,838                                               |
 | 2023 | Discover ACCESS BIO230147 | PI    | $14,838         |
 | 2023 | Discover ACCESS CHE230072 | PI    | $14,838         |
 | 2023 | Discover ACCESS CHE230069 | PI    | $14,838         |

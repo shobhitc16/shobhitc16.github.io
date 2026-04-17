@@ -15,11 +15,11 @@ nav_order: 2
     <p class="small text-muted">Publications</p>
   </div>
   <div class="col-md-3 col-6">
-    <h3 class="stats-number" style="color:var(--global-theme-color)">690+</h3>
+    <h3 class="stats-number" style="color:var(--global-theme-color)">761+</h3>
     <p class="small text-muted">Total Citations</p>
   </div>
   <div class="col-md-3 col-6">
-    <h3 class="stats-number" style="color:var(--global-theme-color)">17</h3>
+    <h3 class="stats-number" style="color:var(--global-theme-color)">18</h3>
     <p class="small text-muted">h-index</p>
   </div>
   <div class="col-md-3 col-6">

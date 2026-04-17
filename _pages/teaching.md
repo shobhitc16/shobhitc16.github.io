@@ -9,7 +9,7 @@ nav_order: 3
 
 <div class="row text-center mb-4 stats-row">
   <div class="col-md-3 col-6">
-    <h3 class="stats-number" style="color:var(--global-theme-color)">14+</h3>
+    <h3 class="stats-number" style="color:var(--global-theme-color)">11+</h3>
     <p class="small text-muted">Researchers Mentored</p>
   </div>
   <div class="col-md-3 col-6">
@@ -17,7 +17,7 @@ nav_order: 3
     <p class="small text-muted">Co-authored Papers</p>
   </div>
   <div class="col-md-3 col-6">
-    <h3 class="stats-number" style="color:var(--global-theme-color)">3</h3>
+    <h3 class="stats-number" style="color:var(--global-theme-color)">4</h3>
     <p class="small text-muted">Courses Taught</p>
   </div>
   <div class="col-md-3 col-6">
@@ -27,6 +27,10 @@ nav_order: 3
 </div>
 
 ## Teaching Experience
+
+### Teaching Assistant — ETH Zürich
+
+**_Quantenchemie_ (Quantum Chemistry)** | Spring 2026 | Instructor: Prof. Markus Reiher
 
 ### Graduate Teaching Assistant — Michigan Technological University
 
@@ -42,16 +46,16 @@ nav_order: 3
 
 ### As a Postdoctoral Scholar (UCLA, 2023–2025)
 
-- Mentored **6 researchers** — 4 graduate and 2 undergraduate students — in electric-field analysis, QM/MM reaction mechanism calculations, molecular dynamics simulations, and machine learning approaches, resulting in **3 co-authored publications** (with more in progress)
-- Coordinated and supervised multiple projects within the lab's bio-subgroup, ensuring research aims are well-aligned and junior researchers receive clear guidance
-- Assisted graduate and undergraduate students in writing manuscripts, responding to peer reviews, and applying for fellowships or computational grants
-- Advised mentees on research ideas/proposals, postgraduate plans, and academic networking strategies
+- Mentored **3 graduate students** (P. Ajmera, A. Goswami, A. Petersen) in electric-field analysis, QM/MM reaction mechanisms, molecular dynamics, and ML on protein electric fields; contributions supported two Chaturvedi-led publications (_Distinct Electric Fields_, JACS 2025; _Directed Evolution of Protoglobin_, JACS 2024)
+- Mentored **2 undergraduate researchers** (J. Qian, H. Jayasekara) — co-authored on the _Distinct Electric Fields_ JACS 2025 paper and an artificial-metalloenzyme preprint, respectively
+- Collaborated with the **Yang group (UC Irvine)** and the **Rovis group (Columbia)** on a cross-institutional artificial-metalloenzyme project targeting Re(I)-catalyzed CO₂ photoreduction (ChemRxiv preprint, 2025)
+- Advised mentees on manuscript preparation, peer-review responses, and fellowship / NSF ACCESS computational-allocation applications
 
 ### During Graduate Studies (Michigan Tech, 2018–2022)
 
-- Trained **3 incoming Ph.D. students** in force field parameter development, molecular dynamics, and QM/MM simulations; guided them through setting up HPC jobs, analyzing mechanistic pathways, and interpreting data
-- Mentored **5 undergraduates** on computational modeling and molecular dynamics simulations, yielding **4 co-authored publications** and 2 poster presentations at ACS conferences
-- Helped junior lab members connect with experimental collaborators (Michigan State, Oxford) to validate computational findings
+- Trained **3 incoming Ph.D. students** in force-field parameter development, molecular dynamics, and QM/MM workflows (HPC job setup, mechanism analysis, data interpretation)
+- Mentored **undergraduate researchers** (J. Wildey, C. Warner, W. White); contributions yielded two Chaturvedi-led publications (JACS Au 2022; Chem. Eur. J. 2023) and two ACS poster presentations
+- Connected junior lab members with experimental collaborators — **Michigan State (Hu / Hausinger groups)** on the ethylene-forming enzyme and **Oxford (Schofield group)** on 2-oxoglutarate-dependent enzymes — to validate computational predictions
 
 ---
 
@@ -59,4 +63,4 @@ nav_order: 3
 
 ### Scientific Reviewer
 
-- **The Journal of Physical Chemistry** (JPC A/B/C, JPC Letters) — Peer reviewer (2023–present)
+- Peer reviewer for **_The Journal of Physical Chemistry B_** and **_ACS Physical Chemistry Au_**
