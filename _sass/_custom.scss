@@ -40,7 +40,7 @@ header.post-header h1 {
 }
 
 // Section headings (h2) on content pages - colored accent bar
-.post-content {
+.post article {
   h2 {
     font-size: 1.5rem;
     font-weight: 700;
@@ -89,7 +89,7 @@ header.post-header h1 {
 }
 
 // Research / content page: better rhythm
-.post-content {
+.post article {
   hr {
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -183,7 +183,7 @@ header.post-header h1 {
 }
 
 // Research page: key publications list styling
-.post-content {
+.post article {
   // Style publication citation lists on research page
   ul {
     padding-left: 1.2rem;
@@ -202,7 +202,7 @@ header.post-header h1 {
 }
 
 // Awards page: table styling
-.post-content {
+.post article {
   table {
     width: 100%;
     border-collapse: collapse;
@@ -242,7 +242,7 @@ header.post-header h1 {
 }
 
 // Teaching page: better section spacing
-.post-content {
+.post article {
   // Conference presentation numbering
   ol {
     padding-left: 1.5rem;
@@ -366,12 +366,12 @@ details.pub-list {
 }
 
 // Research page inline images
-.post-content .img-fluid.rounded {
+.post article .img-fluid.rounded {
   margin-bottom: 0.5rem;
 }
 
 // Section headers with icons (research page)
-.post-content h2 i.fas {
+.post article h2 i.fas {
   margin-right: 0.4rem;
   font-size: 1.3rem;
   vertical-align: baseline;
@@ -498,7 +498,7 @@ header.post-header h1 {
 
 // Section headings in content pages — accent underline,
 // consistent rhythm, no heavy borders that fight the eye.
-.post-content h2,
+.post article h2,
 article > h2 {
   font-size: 1.55rem;
   font-weight: 700;
@@ -509,7 +509,7 @@ article > h2 {
   border-bottom: 1.5px solid var(--global-theme-color);
 }
 
-.post-content h3 {
+.post article h3 {
   font-size: 1.18rem;
   font-weight: 600;
   letter-spacing: -0.005em;
@@ -518,13 +518,13 @@ article > h2 {
 }
 
 // Tighten gap when h3 follows a table or list (e.g., Awards page subsections)
-.post-content table + h3,
-.post-content ol + h3,
-.post-content ul + h3 {
+.post article table + h3,
+.post article ol + h3,
+.post article ul + h3 {
   margin-top: 0.8rem;
 }
 
-.post-content h4 {
+.post article h4 {
   font-size: 1rem;
   font-weight: 600;
   color: var(--global-theme-color);
@@ -536,7 +536,7 @@ article > h2 {
 
 // 3. Inline links — refined underline rhythm
 a,
-.post-content a {
+.post article a {
   text-decoration: none;
   border-bottom: 1px solid transparent;
   transition: color 0.15s ease, border-color 0.15s ease;
@@ -824,18 +824,18 @@ a:visited {
   }
 
   // Make sure tables can scroll horizontally without breaking layout
-  .post-content {
+  .post article {
     overflow-x: auto;
   }
 
-  .post-content table {
+  .post article table {
     min-width: 100%;
     font-size: 0.85rem;
   }
 }
 
 // 8. Awards page — table refinement: lighter, more editorial
-.post-content table {
+.post article table {
   width: 100%;
   border-collapse: collapse;
   margin-bottom: 1.5rem;
@@ -1074,7 +1074,7 @@ html[data-theme="dark"] .navbar.navbar-light {
 }
 
 // Italic question subhead under each section heading
-.post-content {
+.post article {
   h2 + p em:first-child,
   article > h2 + p em:first-child {
     color: var(--global-theme-color);
@@ -1084,7 +1084,7 @@ html[data-theme="dark"] .navbar.navbar-light {
 }
 
 // Section heading icons (research page) — refined
-.post-content h2 i.fas {
+.post article h2 i.fas {
   color: var(--global-theme-color);
   font-size: 1.15rem;
   margin-right: 0.5rem;
@@ -1093,7 +1093,7 @@ html[data-theme="dark"] .navbar.navbar-light {
 }
 
 // Inline images on research page — refined frame
-.post-content .row .col-md-4 img.img-fluid.rounded {
+.post article .row .col-md-4 img.img-fluid.rounded {
   border-radius: 6px;
   border: 1px solid var(--global-divider-color);
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
@@ -1199,7 +1199,7 @@ details.pub-list {
 }
 
 // Section spacing on research page — more rhythm between pillars
-.post-content > hr {
+.post article > hr {
   margin-top: 2.8rem;
   margin-bottom: 2.8rem;
   border-top-color: var(--global-divider-color);
@@ -1207,13 +1207,13 @@ details.pub-list {
 }
 
 // Body paragraph spacing on long content pages
-.post-content p {
+.post article p {
   margin-bottom: 1rem;
   line-height: 1.7;
 }
 
 // Bold inline emphasis (terms like "QM/MM simulations") — slightly stronger contrast
-.post-content p strong {
+.post article p strong {
   color: var(--global-text-color);
   font-weight: 700;
 }
@@ -1222,4 +1222,283 @@ details.pub-list {
 .research-pillars {
   margin-top: 2.5rem !important;
   margin-bottom: 3rem !important;
+}
+
+// ============================================================
+// 19. Designer's polish — editorial signature, distinctive identity
+// ============================================================
+
+// 19.1 Hero — distinctive treatment.
+// Scoped to the about/home page only (.post:has(.profile)) so other pages
+// don't get the hero orbital motif.
+.post:has(.profile) {
+  header.post-header {
+    position: relative;
+    padding-right: 96px; // reserve space for the orbital motif accent
+
+    h1.post-title {
+      font-size: 2.9rem;
+      font-weight: 800;
+      letter-spacing: -0.025em;
+      line-height: 1.08;
+      padding-top: 0;
+      margin-bottom: 0.3rem;
+    }
+
+    // Decorative orbital motif aligned with the title (subtle, scientific)
+    &::after {
+      content: "";
+      position: absolute;
+      right: 4px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 84px;
+      height: 84px;
+      background-image: url("/assets/img/orbital-motif.svg");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      opacity: 0.42;
+      pointer-events: none;
+    }
+
+    p.desc {
+      font-size: 1.04rem;
+      color: var(--global-text-color-light);
+      letter-spacing: 0.005em;
+      margin-top: 0.4rem;
+      margin-bottom: 1.2rem;
+    }
+  }
+}
+
+// Hero eyebrow on home — strapline above bio
+.hero-eyebrow {
+  display: block;
+  font-size: 0.74rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--global-theme-color);
+  margin: 0 0 1rem;
+  padding-bottom: 0.5rem;
+  position: relative;
+  max-width: 600px;
+  border-bottom: 1px solid rgba(var(--global-theme-color-rgb), 0.2);
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 48px;
+    height: 2px;
+    background: var(--global-theme-color);
+  }
+}
+
+// 19.2 Drop cap on first paragraph of about bio (only the home page),
+// targeted via the .hero-eyebrow + p combination so we don't accidentally
+// hit Teaching/Awards/etc. content lists.
+.hero-eyebrow + p::first-letter,
+p.lead-paragraph::first-letter {
+  font-family: "Roboto Slab", Georgia, serif;
+  font-weight: 700;
+  font-size: 3.2em;
+  float: left;
+  line-height: 0.85;
+  margin: 0.05em 0.14em 0 0;
+  color: var(--global-theme-color);
+  letter-spacing: -0.02em;
+}
+
+// 19.3 Animated underline on inline links (premium hover state)
+.post article p a:not(.btn):not(.no-underline),
+.post article li a:not(.btn):not(.no-underline),
+article p a:not(.btn):not(.no-underline) {
+  position: relative;
+  color: var(--global-theme-color);
+  text-decoration: none;
+  background-image: linear-gradient(
+    var(--global-theme-color),
+    var(--global-theme-color)
+  );
+  background-size: 0% 1px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  transition: background-size 0.25s ease;
+  border-bottom: none;
+  padding-bottom: 1px;
+
+  &:hover {
+    background-size: 100% 1px;
+    border-bottom: none;
+  }
+}
+
+// 19.4 Numbered identity for research-page pillar sections
+// Use CSS counters: each h2 with an icon (the major sections) gets 01/02/03
+.post article {
+  counter-reset: pillar-counter;
+}
+
+.post article h2:has(i.fas) {
+  counter-increment: pillar-counter;
+  position: relative;
+  padding-left: 4.2rem;
+
+  &::before {
+    content: counter(pillar-counter, decimal-leading-zero);
+    position: absolute;
+    left: 0;
+    top: 0.05em;
+    font-size: 1.05rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: var(--global-theme-color);
+    opacity: 0.65;
+    line-height: 1.5;
+    border-right: 1px solid rgba(var(--global-theme-color-rgb), 0.25);
+    padding-right: 0.9rem;
+  }
+
+  i.fas {
+    display: none; // numbers replace icons for cleaner editorial feel
+  }
+}
+
+// Italic question subhead under numbered headings (already in #17, refining)
+.post article h2:has(i.fas) + p em {
+  display: inline-block;
+  font-size: 1rem;
+  color: var(--global-theme-color);
+  margin-bottom: 0.5rem;
+}
+
+// 19.5 Refined profile photo frame
+.profile img,
+.profile picture img {
+  border-radius: 8px;
+  box-shadow: 0 6px 28px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+  border: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+// 19.6 Pull quote — for research mission statement
+.pull-quote {
+  font-family: "Roboto Slab", Georgia, serif;
+  font-size: 1.35rem;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.4;
+  color: var(--global-text-color);
+  border-left: 3px solid var(--global-theme-color);
+  padding: 0.4rem 0 0.4rem 1.4rem;
+  margin: 2rem 0;
+  letter-spacing: -0.005em;
+}
+
+// 19.7 Better section dividers — replace bare hr with a subtle treatment
+.post article > hr {
+  border: none;
+  border-top: 1px solid var(--global-divider-color);
+  position: relative;
+  margin: 3rem auto;
+  width: 60%;
+  opacity: 0.6;
+}
+
+// 19.8 Smooth scroll site-wide
+html {
+  scroll-behavior: smooth;
+}
+
+// 19.9 News section refinement — date pill style for editorial impact
+.news table th {
+  font-family: "Roboto Slab", Georgia, serif;
+  font-weight: 500;
+  font-size: 0.8rem !important;
+  letter-spacing: 0.02em;
+  color: var(--global-theme-color) !important;
+  text-transform: uppercase;
+  padding-top: 0.65rem !important;
+}
+
+// 19.10 Refine bold inline emphasis to feel editorial (slightly underlined accent)
+.post article p strong,
+article p strong {
+  background-image: linear-gradient(
+    transparent 60%,
+    rgba(var(--global-theme-color-rgb), 0.12) 60%,
+    rgba(var(--global-theme-color-rgb), 0.12) 88%,
+    transparent 88%
+  );
+  padding: 0 1px;
+  font-weight: 700;
+}
+
+// 19.11 Section anchors get an editorial chevron on hover
+.post article h2,
+.post article h3 {
+  position: relative;
+
+  // Make anchor target click area
+  &:hover .anchor-link {
+    opacity: 0.6;
+  }
+}
+
+// 19.12 Reveal-on-scroll for major sections (subtle fade + slide)
+@media (prefers-reduced-motion: no-preference) {
+  .post article > h2,
+  .post article > .row,
+  .post article > details,
+  .post article > .alert {
+    animation: gentle-reveal 0.55s ease-out both;
+  }
+}
+
+@keyframes gentle-reveal {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+// 19.13 Reading-width cap on long body paragraphs (editorial measure)
+.post article > p {
+  max-width: 70ch;
+}
+
+.post article .row.mb-3 .col-md-8 {
+  // Inside research page side-by-side blocks — narrower measure
+  max-width: 100%;
+}
+
+// 19.14 Dark-mode tuning — orbital motif stays subtle on dark bg
+html[data-theme="dark"] {
+  .post:has(.profile) header.post-header::after {
+    opacity: 0.32;
+    filter: invert(1) hue-rotate(180deg) brightness(1.4);
+  }
+
+  .profile img,
+  .profile picture img {
+    box-shadow: 0 6px 28px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+  }
+}
+
+// 19.15 Quote/highlight block (used sparingly)
+blockquote {
+  border-left: 3px solid var(--global-theme-color);
+  padding: 0.4rem 0 0.4rem 1.2rem;
+  margin: 1.6rem 0;
+  font-style: italic;
+  color: var(--global-text-color-light);
+  font-size: 1.05rem;
+  line-height: 1.55;
 }
