@@ -63,4 +63,4 @@ nav_order: 3
 
 ### Scientific Reviewer
 
-- Peer reviewer for **_The Journal of Physical Chemistry B_**, **_ACS Physical Chemistry Au_**, and **_JACS Au_**
+- Peer reviewer for **_JACS Au_**, **_The Journal of Physical Chemistry B_**, and **_ACS Physical Chemistry Au_**

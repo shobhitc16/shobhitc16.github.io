@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Joined **ETH Zürich** as a Postdoctoral Scholar in the Department of Chemistry and Applied Biosciences. Working on quantum computing for biology and metalloenzyme engineering!
+Joined **ETH Zürich** as a Postdoctoral Scholar in the Department of Chemistry and Applied Biosciences. Working on quantum computing for biology, metalloenzyme engineering, and the catalytic mechanism of nitrogenase!
