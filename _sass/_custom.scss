@@ -442,4 +442,596 @@ details.pub-list {
   }
 }
 
-// Publications page: stats row at top (reuse stats-row class)
+// ============================================================
+// Senior-designer polish layer (added 2026-05)
+// Goal: refined typography, restrained palette, generous rhythm
+// ============================================================
+
+// 1. Color palette — restrained academic navy as the new accent.
+//    Replaces the bright magenta; keeps the dark-mode cyan harmonious.
+:root {
+  --global-theme-color: #1f4e79;
+  --global-hover-color: #1f4e79;
+  --global-theme-color-rgb: 31, 78, 121;
+  --accent-warm: #a8551f; // used sparingly for "callout" emphasis
+  --accent-warm-rgb: 168, 85, 31;
+}
+
+html[data-theme="dark"] {
+  --global-theme-color: #5dade2;
+  --global-hover-color: #5dade2;
+  --global-theme-color-rgb: 93, 173, 226;
+  --accent-warm: #d49156;
+  --accent-warm-rgb: 212, 145, 86;
+}
+
+// 2. Typography — clearer hierarchy, refined letter-spacing,
+//    generous body line-height for editorial readability.
+body {
+  font-feature-settings: "kern" 1, "liga" 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.65;
+}
+
+p {
+  line-height: 1.7;
+}
+
+// Hero/page title: tighter, more confident
+.post-title,
+header.post-header h1 {
+  font-size: 2.6rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  margin-bottom: 0.4rem;
+}
+
+.post-description,
+.desc {
+  font-size: 1.05rem;
+  color: var(--global-text-color-light);
+  letter-spacing: 0.005em;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+// Section headings in content pages — accent underline,
+// consistent rhythm, no heavy borders that fight the eye.
+.post-content h2,
+article > h2 {
+  font-size: 1.55rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin-top: 2.6rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1.5px solid var(--global-theme-color);
+}
+
+.post-content h3 {
+  font-size: 1.18rem;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  margin-top: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.post-content h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--global-theme-color);
+  margin-top: 1.5rem;
+  margin-bottom: 0.4rem;
+  letter-spacing: 0.02em;
+  text-transform: none;
+}
+
+// 3. Inline links — refined underline rhythm
+a,
+.post-content a {
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: color 0.15s ease, border-color 0.15s ease;
+
+  &:hover {
+    text-decoration: none;
+    border-bottom-color: var(--global-theme-color);
+  }
+}
+
+// Visited links: don't blend into accent
+a:visited {
+  color: var(--global-theme-color);
+}
+
+// 4. Stats blocks — calm, editorial numbers with subtle eyebrow label
+.stats-row {
+  padding: 1rem 0 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--global-divider-color);
+
+  .stats-number {
+    font-size: 2.4rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+    color: var(--global-theme-color);
+    margin-bottom: 0.3rem;
+  }
+
+  p {
+    margin-bottom: 0;
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--global-text-color-light);
+    font-weight: 500;
+  }
+}
+
+// 5. Pillar cards — refined hover, accent top-line, calmer shadows
+.card.research-pillar {
+  position: relative;
+  background-color: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+  padding: 1.5rem 1.4rem;
+  transition: transform 0.18s ease, box-shadow 0.18s ease,
+    border-color 0.18s ease;
+
+  // Subtle accent line on top
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: var(--global-theme-color);
+    border-radius: 6px 6px 0 0;
+    opacity: 0.85;
+  }
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    border-color: var(--global-theme-color);
+  }
+
+  .pillar-heading {
+    color: var(--global-theme-color);
+    font-size: 0.95rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: none;
+    line-height: 1.35;
+    margin-bottom: 0.6rem;
+
+    em {
+      color: var(--global-text-color-light);
+      font-weight: 400;
+      font-style: italic;
+    }
+  }
+
+  // Center icon + heading on /research/ pillars (not on home Why/How/What for)
+  &.text-center {
+    align-items: center;
+    text-align: center;
+  }
+
+  h5 {
+    color: var(--global-text-color);
+    font-weight: 700;
+    font-size: 1.05rem;
+    letter-spacing: -0.005em;
+  }
+
+  .pillar-icon-wrapper i {
+    color: var(--global-theme-color);
+  }
+}
+
+// 6. Publications — without thumbnails, give entries elegant breathing room
+.publications {
+  ol.bibliography {
+    padding-left: 0;
+    list-style: none;
+    counter-reset: bib-counter;
+  }
+
+  ol.bibliography li {
+    position: relative;
+    padding: 1.2rem 0 1.2rem 0;
+    margin-bottom: 0;
+    border-bottom: 1px solid var(--global-divider-color);
+    transition: background-color 0.15s ease;
+
+    &:hover {
+      background-color: rgba(var(--global-theme-color-rgb), 0.025);
+    }
+
+    .row {
+      align-items: flex-start;
+    }
+
+    // Title — confident, readable, the focal point
+    .title {
+      font-size: 1.05rem;
+      font-weight: 600;
+      line-height: 1.4;
+      letter-spacing: -0.005em;
+      color: var(--global-text-color);
+      margin-bottom: 0.35rem;
+    }
+
+    // Authors — calm, supporting role
+    .author {
+      font-size: 0.9rem;
+      line-height: 1.5;
+      color: var(--global-text-color-light);
+      margin-bottom: 0.2rem;
+
+      em {
+        color: var(--global-text-color);
+        font-weight: 600;
+        font-style: normal;
+      }
+    }
+
+    // Journal — italicised, year just after, quiet
+    .periodical {
+      font-size: 0.88rem;
+      color: var(--global-text-color-light);
+      margin-bottom: 0.4rem;
+      line-height: 1.5;
+    }
+
+    // Action buttons — restrained, ghost-style
+    .links {
+      margin-top: 0.5rem;
+
+      a.btn {
+        font-size: 0.72rem;
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        padding: 0.2rem 0.6rem;
+        margin-right: 0.3rem;
+        margin-bottom: 0.3rem;
+        border-radius: 3px;
+        background: transparent;
+        color: var(--global-theme-color);
+        border: 1px solid var(--global-theme-color);
+        transition: all 0.15s ease;
+
+        &:hover {
+          background: var(--global-theme-color);
+          color: white;
+          text-decoration: none;
+        }
+      }
+    }
+
+    // Abbreviation pill — uniform shape, calmer presentation
+    .abbr {
+      padding-right: 0;
+
+      abbr {
+        display: inline-block;
+        background: rgba(var(--global-theme-color-rgb), 0.08) !important;
+        color: var(--global-theme-color) !important;
+        font-size: 0.72rem;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+        padding: 0.32rem 0.55rem;
+        border-radius: 3px;
+        line-height: 1.2;
+        white-space: nowrap;
+
+        a {
+          color: var(--global-theme-color) !important;
+          text-decoration: none;
+        }
+      }
+    }
+
+    // Year separators on the right
+    &::after {
+      content: "";
+    }
+
+    .badges {
+      margin-top: 0.5rem;
+    }
+  }
+
+  // Year heading
+  h2.bibliography {
+    font-size: 1.15rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--global-text-color-light);
+    border-bottom: 1px solid var(--global-divider-color);
+    border-top: none;
+    padding-bottom: 0.4rem;
+    padding-top: 0;
+    margin-top: 2.5rem;
+    margin-bottom: 1.2rem;
+    text-align: left;
+  }
+
+  &:first-child h2.bibliography:first-child {
+    margin-top: 1rem;
+  }
+}
+
+// 7. About page — profile photo behaves cleanly across breakpoints
+.profile {
+  margin-bottom: 1.5rem;
+
+  img {
+    border-radius: 6px;
+  }
+
+  .more-info {
+    margin-top: 0.75rem;
+    font-size: 0.92rem;
+    line-height: 1.5;
+    color: var(--global-text-color-light);
+
+    p {
+      margin-bottom: 0.15rem;
+      line-height: 1.5;
+    }
+  }
+}
+
+// Mobile: stack profile cleanly above bio (no float overlap)
+@media (max-width: 767.98px) {
+  .profile.float-right,
+  .profile.float-left {
+    float: none !important;
+    width: 100%;
+    max-width: 280px;
+    margin: 0 auto 1.5rem auto;
+    display: block;
+  }
+
+  .post-title,
+  header.post-header h1 {
+    font-size: 2rem;
+  }
+
+  .stats-row {
+    .stats-number {
+      font-size: 1.75rem;
+    }
+    p {
+      font-size: 0.72rem;
+    }
+  }
+
+  // Make sure tables can scroll horizontally without breaking layout
+  .post-content {
+    overflow-x: auto;
+  }
+
+  .post-content table {
+    min-width: 100%;
+    font-size: 0.85rem;
+  }
+}
+
+// 8. Awards page — table refinement: lighter, more editorial
+.post-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5rem;
+  font-size: 0.92rem;
+
+  thead th {
+    background-color: transparent !important;
+    color: var(--global-text-color) !important;
+    font-weight: 700;
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding: 0.7rem 0.8rem;
+    text-align: left;
+    border-bottom: 2px solid var(--global-theme-color) !important;
+  }
+
+  tbody {
+    tr {
+      border-bottom: 1px solid var(--global-divider-color);
+      transition: background-color 0.12s ease;
+
+      &:nth-child(even) {
+        background-color: transparent;
+      }
+
+      &:hover {
+        background-color: rgba(var(--global-theme-color-rgb), 0.04);
+      }
+    }
+
+    td {
+      padding: 0.65rem 0.8rem;
+      vertical-align: top;
+      line-height: 1.5;
+    }
+  }
+}
+
+// 9. Signature result / callout
+.alert.signature-result,
+.alert.research-focus-banner {
+  border-radius: 4px;
+  padding: 1.1rem 1.3rem;
+  margin-top: 1.2rem;
+  margin-bottom: 1.5rem;
+  background: rgba(var(--global-theme-color-rgb), 0.06);
+  border: none;
+  border-left: 3px solid var(--global-theme-color);
+
+  i.fa-star,
+  i.fas {
+    color: var(--accent-warm);
+    margin-right: 0.4rem;
+  }
+
+  strong {
+    color: var(--global-theme-color);
+    letter-spacing: 0.01em;
+  }
+}
+
+// 10. News section on homepage — calmer, more scannable
+.news {
+  table {
+    border: none;
+
+    th,
+    td {
+      border: none;
+      padding: 0.6rem 0.5rem 0.6rem 0;
+      vertical-align: top;
+    }
+
+    th {
+      font-weight: 600;
+      font-size: 0.85rem;
+      letter-spacing: 0.01em;
+      color: var(--global-theme-color);
+      white-space: nowrap;
+      width: 110px;
+      padding-right: 1.2rem !important;
+    }
+
+    td {
+      line-height: 1.55;
+      font-size: 0.93rem;
+    }
+  }
+}
+
+// 11. Selected Publications heading on home — match new style
+h2 a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: none;
+
+  &:hover {
+    color: var(--global-theme-color);
+  }
+}
+
+// 12. Footer (now flow, not fixed) — refined, calm, pushes to bottom
+footer.sticky-bottom {
+  border-top: 1px solid var(--global-divider-color);
+  background: transparent !important;
+  color: var(--global-text-color-light);
+  padding: 1.5rem 0 1.2rem;
+  font-size: 0.82rem;
+  letter-spacing: 0.005em;
+
+  .container {
+    text-align: center;
+  }
+
+  a {
+    color: var(--global-text-color-light);
+    border-bottom: 1px solid transparent;
+
+    &:hover {
+      color: var(--global-theme-color);
+      border-bottom-color: var(--global-theme-color);
+    }
+  }
+}
+
+// 13. Social icons row on home — cleaner spacing, subtle hover
+.social {
+  margin-top: 3rem;
+  text-align: center;
+
+  .contact-icons {
+    margin-bottom: 0.7rem;
+
+    a {
+      margin: 0 0.55rem;
+      transition: color 0.15s ease, transform 0.15s ease;
+      display: inline-block;
+
+      &:hover {
+        color: var(--global-theme-color);
+        transform: translateY(-2px);
+      }
+
+      i {
+        font-size: 1.7rem;
+      }
+    }
+  }
+
+  .contact-note {
+    font-size: 0.88rem;
+    color: var(--global-text-color-light);
+    font-style: italic;
+  }
+}
+
+// 14. Navbar — slightly more refined, transparent on scroll
+.navbar.navbar-light {
+  border-bottom: 1px solid var(--global-divider-color);
+  backdrop-filter: saturate(150%) blur(8px);
+  background: rgba(255, 255, 255, 0.92) !important;
+
+  .navbar-brand {
+    font-size: 1.15rem;
+    font-weight: 700;
+    letter-spacing: 0.005em;
+  }
+
+  .navbar-nav .nav-item .nav-link {
+    font-size: 0.98rem;
+    font-weight: 500;
+    color: var(--global-text-color);
+    padding: 0.5rem 0.85rem;
+    text-transform: none;
+    letter-spacing: 0.01em;
+
+    &:hover {
+      color: var(--global-theme-color);
+    }
+  }
+
+  .navbar-nav .nav-item.active > .nav-link {
+    font-weight: 600;
+    color: var(--global-theme-color);
+  }
+}
+
+html[data-theme="dark"] .navbar.navbar-light {
+  background: rgba(20, 24, 32, 0.85) !important;
+}
+
+// 15. Vertical rhythm — give the article real breathing room
+.post {
+  padding-bottom: 3rem;
+
+  > article {
+    margin-top: 1rem;
+  }
+}
+
+// 16. Pubication detail page (selected_papers on home) inherits the same polish
+#selected_papers ol.bibliography li {
+  padding: 1rem 0;
+}

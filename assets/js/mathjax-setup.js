@@ -1,10 +1,8 @@
 window.MathJax = {
   tex: {
     tags: "ams",
-    inlineMath: [
-      ["$", "$"],
-      ["\\(", "\\)"],
-    ],
+    // Use only \(...\) for inline math to avoid clashing with currency ($)
+    inlineMath: [["\\(", "\\)"]],
   },
   options: {
     renderActions: {
