@@ -131,8 +131,11 @@ At ETH Zürich, as part of an **XPRIZE finalist team**, I am developing high-per
 </div>
 
 <details class="pub-list" markdown="1">
-<summary><strong>Key publications</strong></summary>
+<summary><strong>Recent outputs &amp; ongoing collaborations</strong></summary>
 
-- _ChemRxiv_ 2026 (Artificial metalloenzyme for Re(I)-catalyzed CO<sub>2</sub> photoreduction)
+- _ChemRxiv_ 2025 (Artificial metalloenzyme for Re(I)-catalyzed CO<sub>2</sub> photoreduction; with Yang group, UC Irvine, and Rovis group, Columbia)
+- Cytochrome P450 engineering for selective C–H functionalisation _(ongoing; with Ward group, University of Basel)_
+- Quantum-computing pipelines for biological metal centers _(ongoing; XPRIZE finalist team, ETH Zürich)_
+- Nitrogenase catalytic mechanism _(ongoing; NITRO-GENESE consortium)_
 
 </details>

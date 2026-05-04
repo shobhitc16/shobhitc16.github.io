@@ -11,7 +11,7 @@ nav_order: 2
 
 <div class="row text-center mb-4 stats-row">
   <div class="col-md-3 col-6">
-    <h3 class="stats-number" style="color:var(--global-theme-color)">25+</h3>
+    <h3 class="stats-number" style="color:var(--global-theme-color)">26+</h3>
     <p class="small text-muted">Publications</p>
   </div>
   <div class="col-md-3 col-6">

@@ -18,7 +18,7 @@ nav_order: 4
   </div>
   <div class="col-md-4 col-12">
     <h3 class="stats-number" style="color:var(--global-theme-color)">11</h3>
-    <p class="small">Conference Talks</p>
+    <p class="small">Conference Presentations</p>
   </div>
 </div>
 
