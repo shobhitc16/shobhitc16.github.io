@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /research/
-title: research
+title: Research
 description: Understanding enzyme catalysis, predicting and engineering enzyme function, and applying frontier methods toward sustainable chemistry and human health.
 nav: true
 nav_order: 1

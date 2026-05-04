@@ -14,7 +14,6 @@
     font-size: 1.05rem;
     font-weight: 500;
     padding: 0.5rem 0.75rem;
-    text-transform: capitalize;
     letter-spacing: 0.01em;
   }
 
@@ -514,8 +513,15 @@ article > h2 {
   font-size: 1.18rem;
   font-weight: 600;
   letter-spacing: -0.005em;
-  margin-top: 1.8rem;
+  margin-top: 1.5rem;
   margin-bottom: 0.5rem;
+}
+
+// Tighten gap when h3 follows a table or list (e.g., Awards page subsections)
+.post-content table + h3,
+.post-content ol + h3,
+.post-content ul + h3 {
+  margin-top: 0.8rem;
 }
 
 .post-content h4 {
@@ -1034,4 +1040,186 @@ html[data-theme="dark"] .navbar.navbar-light {
 // 16. Pubication detail page (selected_papers on home) inherits the same polish
 #selected_papers ol.bibliography li {
   padding: 1rem 0;
+}
+
+// ============================================================
+// 17. Research page — editorial polish
+// ============================================================
+
+// Larger, more confident pillar cards (research page Why/How/What for)
+.card.research-pillar.text-center {
+  padding: 2.2rem 1.6rem 1.8rem;
+
+  .pillar-icon-wrapper {
+    margin-bottom: 0.6rem;
+  }
+
+  .pillar-icon-wrapper i {
+    font-size: 2rem !important;
+    color: var(--global-theme-color);
+  }
+
+  h5 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: -0.005em;
+    margin-bottom: 0.5rem;
+  }
+
+  p.small {
+    font-size: 0.88rem;
+    line-height: 1.55;
+    color: var(--global-text-color-light);
+  }
+}
+
+// Italic question subhead under each section heading
+.post-content {
+  h2 + p em:first-child,
+  article > h2 + p em:first-child {
+    color: var(--global-theme-color);
+    font-style: italic;
+    font-weight: 500;
+  }
+}
+
+// Section heading icons (research page) — refined
+.post-content h2 i.fas {
+  color: var(--global-theme-color);
+  font-size: 1.15rem;
+  margin-right: 0.5rem;
+  vertical-align: baseline;
+  opacity: 0.85;
+}
+
+// Inline images on research page — refined frame
+.post-content .row .col-md-4 img.img-fluid.rounded {
+  border-radius: 6px;
+  border: 1px solid var(--global-divider-color);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+  width: 100%;
+  height: auto;
+  margin-top: 0.4rem;
+}
+
+// Signature result — more presence, subtle gradient hint
+.alert.signature-result {
+  background: linear-gradient(
+    180deg,
+    rgba(var(--global-theme-color-rgb), 0.08) 0%,
+    rgba(var(--global-theme-color-rgb), 0.04) 100%
+  );
+  border-left: 3px solid var(--global-theme-color);
+  padding: 1.25rem 1.4rem;
+  font-size: 0.95rem;
+  line-height: 1.55;
+
+  strong {
+    color: var(--global-theme-color);
+    font-weight: 700;
+    margin-right: 0.2rem;
+  }
+
+  i.fa-star {
+    color: var(--accent-warm);
+    font-size: 0.95rem;
+    margin-right: 0.5rem;
+  }
+}
+
+// Collapsible "Key publications" / "Recent outputs" — friendlier, more inviting
+details.pub-list {
+  margin-top: 1.2rem;
+  margin-bottom: 2rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 6px;
+  background: rgba(var(--global-theme-color-rgb), 0.02);
+  padding: 0.7rem 1.1rem;
+  transition: border-color 0.15s ease, background-color 0.15s ease;
+
+  &:hover {
+    border-color: rgba(var(--global-theme-color-rgb), 0.4);
+    background: rgba(var(--global-theme-color-rgb), 0.04);
+  }
+
+  &[open] {
+    background: rgba(var(--global-theme-color-rgb), 0.03);
+    padding-bottom: 1rem;
+  }
+
+  summary {
+    cursor: pointer;
+    font-size: 0.92rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    padding: 0.3rem 0;
+    color: var(--global-theme-color);
+    list-style: none;
+
+    strong {
+      font-weight: 600;
+    }
+
+    &::before {
+      content: "\f0da"; // chevron right
+      font-family: "Font Awesome 6 Free";
+      font-weight: 900;
+      margin-right: 0.7rem;
+      transition: transform 0.18s ease;
+      display: inline-block;
+      width: 0.6em;
+      color: var(--global-theme-color);
+    }
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+  }
+
+  &[open] summary::before {
+    transform: rotate(90deg);
+  }
+
+  ul {
+    margin-top: 0.7rem;
+    padding-left: 1.4rem;
+
+    li {
+      font-size: 0.88rem;
+      line-height: 1.55;
+      color: var(--global-text-color);
+      margin-bottom: 0.35rem;
+
+      em {
+        color: var(--global-text-color-light);
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+// Section spacing on research page — more rhythm between pillars
+.post-content > hr {
+  margin-top: 2.8rem;
+  margin-bottom: 2.8rem;
+  border-top-color: var(--global-divider-color);
+  opacity: 0.7;
+}
+
+// Body paragraph spacing on long content pages
+.post-content p {
+  margin-bottom: 1rem;
+  line-height: 1.7;
+}
+
+// Bold inline emphasis (terms like "QM/MM simulations") — slightly stronger contrast
+.post-content p strong {
+  color: var(--global-text-color);
+  font-weight: 700;
+}
+
+// 18. Research-direction card row on home — match research page pillars
+.research-pillars {
+  margin-top: 2.5rem !important;
+  margin-bottom: 3rem !important;
 }

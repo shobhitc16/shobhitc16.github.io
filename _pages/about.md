@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Postdoctoral Scholar | <a href='https://chab.ethz.ch/en/'>Department of Chemistry and Applied Biosciences, ETH Zürich</a>
 
