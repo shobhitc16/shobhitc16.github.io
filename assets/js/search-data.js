@@ -62,7 +62,7 @@ ninja.data = [{
           section: "News",},{id: "news-pycpet-our-open-source-python-toolbox-for-computing-heterogeneous-3d-protein-electric-fields-has-been-published-in-the-journal-of-chemical-theory-and-computation-jctc-2025",
           title: 'PyCPET — our open-source Python toolbox for computing heterogeneous 3D protein electric fields...',
           description: "",
-          section: "News",},{id: "news-joined-eth-zürich-as-a-postdoctoral-scholar-in-the-department-of-chemistry-and-applied-biosciences-working-on-quantum-computing-for-biology-automated-reaction-network-exploration-and-metalloenzyme-engineering",
+          section: "News",},{id: "news-joined-eth-zürich-as-a-postdoctoral-scholar-in-the-department-of-chemistry-and-applied-biosciences-working-on-quantum-computing-for-biology-and-metalloenzyme-engineering",
           title: 'Joined ETH Zürich as a Postdoctoral Scholar in the Department of Chemistry and...',
           description: "",
           section: "News",},{id: "news-awarded-the-eth-zürich-focus-grant-chf-10-106-a-two-month-fellowship-from-the-eth-grants-office-supporting-preparation-of-an-erc-starting-grant-application",
