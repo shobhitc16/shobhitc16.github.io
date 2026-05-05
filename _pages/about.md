@@ -27,7 +27,7 @@ latest_posts:
   limit: 3
 ---
 
-<p class="hero-eyebrow">Computational Chemist · Enzyme Catalysis · Quantum Computing for Biology</p>
+<p class="hero-eyebrow">Computational Chemist · Enzyme Catalysis · Enzyme Engineering</p>
 
 I am a computational chemist investigating how **protein scaffolds** control enzyme catalysis — and how these principles can be harnessed to engineer enzymes with new functions. My research combines **multiscale simulations** (QM/MM, molecular dynamics), **machine learning**, and emerging **quantum computing** methods to discover novel reaction mechanisms, develop predictive computational tools, and design enzymes for applications in health, energy, and sustainability.
 
