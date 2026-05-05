@@ -1,9 +1,10 @@
 name: Update Publications from ORCID
 
 on:
-  schedule:
-    - cron: "0 6 * * 1" # Every Monday at 6 AM UTC
-  workflow_dispatch: # Allow manual trigger
+  # Cron disabled: the dedup logic was appending duplicates every run
+  # (different DOI versions /v2, case differences, missing-title entries).
+  # Re-enable only after scripts/update_bib_from_orcid.py is fixed.
+  workflow_dispatch: # manual trigger only
 
 permissions:
   contents: write
