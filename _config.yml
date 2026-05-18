@@ -82,7 +82,7 @@ og_image: assets/img/profile.jpg # The site-wide (default for all links) Open Gr
 
 # For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=en&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
 # and follow the instructions for Google Sites. You will need to create a Google Analytics property and copy the Google tag ID.
-google_analytics: G-XXXXXXXXXX # your Google Analytics measurement ID (format: G-XXXXXXXXXX) — replace after GA4 setup
+google_analytics: G-WJT6M2TKZP # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
 goatcounter_code: # your GoatCounter site code — sign up at goatcounter.com and replace
 clarity_project_id: # your Microsoft Clarity project ID — sign up at clarity.microsoft.com and replace
 cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
