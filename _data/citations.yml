@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-20'
+  last_updated: '2026-06-05'
 papers:
   9XyXnhIAAAAJ:3s1wT3WcHBgC:
     citations: 0
@@ -22,15 +22,15 @@ papers:
     title: "Effects of the Nature of Metal Ion, Protein and Substrate on the Catalytic Center in Matrix Metalloproteinase\u20101: Insights from Multilevel MD, QM/MM and QM Studies"
     year: '2022'
   9XyXnhIAAAAJ:M05iB0D1s5AC:
-    citations: 26
+    citations: 27
     title: The unique role of the second coordination sphere to unlock and control catalysis in nonheme Fe (II)/2-oxoglutarate histone demethylase KDM2A
     year: '2024'
   9XyXnhIAAAAJ:QIV2ME_5wuYC:
-    citations: 30
+    citations: 31
     title: Can an external electric field switch between ethylene formation and l-arginine hydroxylation in the ethylene forming enzyme?
     year: '2023'
   9XyXnhIAAAAJ:SeFeTyx0c_EC:
-    citations: 22
+    citations: 23
     title: Methods for theoretical treatment of local fields in proteins and enzymes
     year: '2025'
   9XyXnhIAAAAJ:Tyk-4Ss8FVUC:
@@ -42,11 +42,11 @@ papers:
     title: Catalysis by the non-heme iron (II) histone demethylase PHF8 involves iron center rearrangement and conformational modulation of substrate orientation
     year: '2019'
   9XyXnhIAAAAJ:W7OEmFMy1HYC:
-    citations: 68
+    citations: 70
     title: Role of structural dynamics in selectivity and mechanism of non-heme Fe (II) and 2-oxoglutarate-dependent oxygenases involved in DNA repair
     year: '2020'
   9XyXnhIAAAAJ:WF5omc3nYNoC:
-    citations: 67
+    citations: 70
     title: Atomic and Electronic Structure Determinants Distinguish between Ethylene Formation and l-Arginine Hydroxylation Reaction Mechanisms in the Ethylene-Forming Enzyme
     year: '2021'
   9XyXnhIAAAAJ:Wp0gIr-vW9MC:
@@ -58,7 +58,7 @@ papers:
     title: Combined molecular dynamics and quantum mechanical/molecular mechanical studies on histone demethylation by KDM4A enzymes
     year: '2019'
   9XyXnhIAAAAJ:YOwf2qJgpHMC:
-    citations: 36
+    citations: 37
     title: How human TET2 enzyme catalyzes the oxidation of unnatural cytosine modifications in double-stranded DNA
     year: '2022'
   9XyXnhIAAAAJ:aqlVkmm33-oC:
@@ -78,15 +78,15 @@ papers:
     title: Designing an Artificial Metalloenzyme for Re-based CO2 Photoreduction
     year: '2025'
   9XyXnhIAAAAJ:dhFuZR0502QC:
-    citations: 33
+    citations: 32
     title: "Catalysis by KDM6 Histone Demethylases\u2013A Synergy between the Non\u2010Heme Iron (II) Center, Second Coordination Sphere, and Long\u2010Range Interactions"
     year: '2023'
   9XyXnhIAAAAJ:e5wmG9Sq2KIC:
-    citations: 16
+    citations: 17
     title: Revealing the catalytic strategy of FTO
     year: '2023'
   9XyXnhIAAAAJ:eQOLeE2rZwMC:
-    citations: 53
+    citations: 52
     title: Catalysis by the JmjC histone demethylase KDM4A integrates substrate dynamics, correlated motions and molecular orbital control
     year: '2020'
   9XyXnhIAAAAJ:fPk4N6BV_jEC:
@@ -102,7 +102,7 @@ papers:
     title: Directed evolution of protoglobin optimizes the enzyme electric field
     year: '2024'
   9XyXnhIAAAAJ:mVmsd5A6BfQC:
-    citations: 20
+    citations: 22
     title: "Dioxygen Binding Is Controlled by the Protein Environment in Non\u2010heme FeII and 2\u2010Oxoglutarate Oxygenases: A Study on Histone Demethylase PHF8 and an \u2026"
     year: '2023'
   9XyXnhIAAAAJ:pqnbT2bcN3wC:
@@ -114,7 +114,7 @@ papers:
     title: Structure-function relationships in KDM7 histone demethylases
     year: '2019'
   9XyXnhIAAAAJ:r0BpntZqJG4C:
-    citations: 44
+    citations: 48
     title: 'From Random to Rational: Improving Enzyme Design through Electric Fields, Second Coordination Sphere Interactions, and Conformational Dynamics'
     year: '2023'
   9XyXnhIAAAAJ:rO6llkc54NcC:
