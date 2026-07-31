@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-22'
+  last_updated: '2026-07-31'
 papers:
   9XyXnhIAAAAJ:3s1wT3WcHBgC:
     citations: 0
@@ -22,7 +22,7 @@ papers:
     title: "Effects of the Nature of Metal Ion, Protein and Substrate on the Catalytic Center in Matrix Metalloproteinase\u20101: Insights from Multilevel MD, QM/MM and QM Studies"
     year: '2022'
   9XyXnhIAAAAJ:M05iB0D1s5AC:
-    citations: 28
+    citations: 30
     title: The unique role of the second coordination sphere to unlock and control catalysis in nonheme Fe (II)/2-oxoglutarate histone demethylase KDM2A
     year: '2024'
   9XyXnhIAAAAJ:QIV2ME_5wuYC:
@@ -38,7 +38,7 @@ papers:
     title: Computational insights into catalytic mechanism of Ne-methyl lysine demethylation by PHF8
     year: '2019'
   9XyXnhIAAAAJ:UeHWp8X0CEIC:
-    citations: 96
+    citations: 97
     title: Catalysis by the non-heme iron (II) histone demethylase PHF8 involves iron center rearrangement and conformational modulation of substrate orientation
     year: '2019'
   9XyXnhIAAAAJ:W7OEmFMy1HYC:
@@ -58,7 +58,7 @@ papers:
     title: Combined molecular dynamics and quantum mechanical/molecular mechanical studies on histone demethylation by KDM4A enzymes
     year: '2019'
   9XyXnhIAAAAJ:YOwf2qJgpHMC:
-    citations: 37
+    citations: 38
     title: How human TET2 enzyme catalyzes the oxidation of unnatural cytosine modifications in double-stranded DNA
     year: '2022'
   9XyXnhIAAAAJ:aqlVkmm33-oC:
@@ -70,7 +70,7 @@ papers:
     title: "Cover Feature: Catalysis by KDM6 Histone Demethylases\u2013A Synergy between the Non\u2010Heme Iron (II) Center, Second Coordination Sphere, and Long\u2010Range Interactions (Chem. Eur. J. 51 \u2026"
     year: '2023'
   9XyXnhIAAAAJ:d1gkVwhDpl0C:
-    citations: 31
+    citations: 30
     title: Conformational dynamics underlies different functions of human KDM7 histone demethylases
     year: '2019'
   9XyXnhIAAAAJ:dfsIfKJdRG4C:
@@ -90,7 +90,7 @@ papers:
     title: Catalysis by the JmjC histone demethylase KDM4A integrates substrate dynamics, correlated motions and molecular orbital control
     year: '2020'
   9XyXnhIAAAAJ:fPk4N6BV_jEC:
-    citations: 10
+    citations: 11
     title: Distinct Electric Fields Enable Common Catalytic Function in Structurally Diverse Enzymes
     year: '2025'
   9XyXnhIAAAAJ:g5m5HwL7SMYC:
@@ -103,7 +103,7 @@ papers:
     year: '2024'
   9XyXnhIAAAAJ:mVmsd5A6BfQC:
     citations: 22
-    title: "Dioxygen Binding Is Controlled by the Protein Environment in Non\u2010heme FeII and 2\u2010Oxoglutarate Oxygenases: A Study on Histone Demethylase PHF8 and an \u2026"
+    title: "Dioxygen Binding Is Controlled by the Protein Environment in Non\u2010heme Fe II and 2\u2010Oxoglutarate Oxygenases: A Study on Histone Demethylase PHF8 and an Ethylene\u2010Forming Enzyme"
     year: '2023'
   9XyXnhIAAAAJ:pqnbT2bcN3wC:
     citations: 3
