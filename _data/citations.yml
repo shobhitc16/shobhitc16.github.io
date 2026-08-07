@@ -1,16 +1,16 @@
 metadata:
-  last_updated: '2026-07-31'
+  last_updated: '2026-08-07'
 papers:
   9XyXnhIAAAAJ:3s1wT3WcHBgC:
     citations: 0
     title: "Ms Magdalena Abramiuk, Johnson Matthey, United Kingdom Professor Carlos Acevedo-Rocha, The Novo Nordisk Foundation Centre for Biosus-tainability, Denmark Mr Abdulrahman \u2026"
     year: '2024'
   9XyXnhIAAAAJ:4OULZ7Gr8RgC:
-    citations: 5
+    citations: 7
     title: Applications of biotechnology for sustainable development
     year: '2017'
   9XyXnhIAAAAJ:8k81kl-MbHgC:
-    citations: 25
+    citations: 24
     title: "A synergy between the catalytic and structural Zn (II) ions and the enzyme and substrate dynamics underlies the structure\u2013function relationships of matrix metalloproteinase \u2026"
     year: '2021'
   9XyXnhIAAAAJ:HoB7MX3m0LUC:
@@ -18,7 +18,7 @@ papers:
     title: Integrating molecular probes and molecular dynamics to reveal binding modes of GLUT5 activatory and inhibitory ligands
     year: '2018'
   9XyXnhIAAAAJ:KlAtU1dfN6UC:
-    citations: 9
+    citations: 10
     title: "Effects of the Nature of Metal Ion, Protein and Substrate on the Catalytic Center in Matrix Metalloproteinase\u20101: Insights from Multilevel MD, QM/MM and QM Studies"
     year: '2022'
   9XyXnhIAAAAJ:M05iB0D1s5AC:
@@ -30,7 +30,7 @@ papers:
     title: Can an external electric field switch between ethylene formation and l-arginine hydroxylation in the ethylene forming enzyme?
     year: '2023'
   9XyXnhIAAAAJ:SeFeTyx0c_EC:
-    citations: 29
+    citations: 31
     title: Methods for theoretical treatment of local fields in proteins and enzymes
     year: '2025'
   9XyXnhIAAAAJ:Tyk-4Ss8FVUC:
@@ -38,7 +38,7 @@ papers:
     title: Computational insights into catalytic mechanism of Ne-methyl lysine demethylation by PHF8
     year: '2019'
   9XyXnhIAAAAJ:UeHWp8X0CEIC:
-    citations: 97
+    citations: 98
     title: Catalysis by the non-heme iron (II) histone demethylase PHF8 involves iron center rearrangement and conformational modulation of substrate orientation
     year: '2019'
   9XyXnhIAAAAJ:W7OEmFMy1HYC:
@@ -70,13 +70,13 @@ papers:
     title: "Cover Feature: Catalysis by KDM6 Histone Demethylases\u2013A Synergy between the Non\u2010Heme Iron (II) Center, Second Coordination Sphere, and Long\u2010Range Interactions (Chem. Eur. J. 51 \u2026"
     year: '2023'
   9XyXnhIAAAAJ:d1gkVwhDpl0C:
-    citations: 30
+    citations: 31
     title: Conformational dynamics underlies different functions of human KDM7 histone demethylases
     year: '2019'
   9XyXnhIAAAAJ:dfsIfKJdRG4C:
     citations: 0
-    title: Designing an Artificial Metalloenzyme for Re-based CO2 Photoreduction
-    year: '2025'
+    title: Designing an Artificial Metalloenzyme for Re (I)-catalyzed CO2 Photoreduction
+    year: '2026'
   9XyXnhIAAAAJ:dhFuZR0502QC:
     citations: 34
     title: "Catalysis by KDM6 Histone Demethylases\u2013A Synergy between the Non\u2010Heme Iron (II) Center, Second Coordination Sphere, and Long\u2010Range Interactions"
@@ -103,14 +103,14 @@ papers:
     year: '2024'
   9XyXnhIAAAAJ:mVmsd5A6BfQC:
     citations: 22
-    title: "Dioxygen Binding Is Controlled by the Protein Environment in Non\u2010heme Fe II and 2\u2010Oxoglutarate Oxygenases: A Study on Histone Demethylase PHF8 and an Ethylene\u2010Forming Enzyme"
+    title: "Dioxygen Binding Is Controlled by the Protein Environment in Non\u2010heme FeII and 2\u2010Oxoglutarate Oxygenases: A Study on Histone Demethylase PHF8 and an \u2026"
     year: '2023'
   9XyXnhIAAAAJ:pqnbT2bcN3wC:
     citations: 3
     title: "PyCPET\u2500Computing Heterogeneous 3D Protein Electric Fields and Their Dynamics"
     year: '2025'
   9XyXnhIAAAAJ:qjMakFHDy7sC:
-    citations: 40
+    citations: 39
     title: Structure-function relationships in KDM7 histone demethylases
     year: '2019'
   9XyXnhIAAAAJ:r0BpntZqJG4C:
@@ -129,11 +129,7 @@ papers:
     citations: 23
     title: "Conformational flexibility influences structure\u2013function relationships in nucleic acid N-methyl demethylases"
     year: '2019'
-  9XyXnhIAAAAJ:u_35RYKgDlwC:
-    citations: 0
-    title: "Front Cover: Dioxygen Binding Is Controlled by the Protein Environment in Non\u2010heme FeII and 2\u2010Oxoglutarate Oxygenases: A Study on Histone Demethylase \u2026"
-    year: '2023'
   9XyXnhIAAAAJ:ufrVoPGSRksC:
-    citations: 54
+    citations: 52
     title: 'Catalytic mechanism of human ten-eleven translocation-2 (tet2) enzyme: Effects of conformational changes, electric field, and mutations'
     year: '2021'
