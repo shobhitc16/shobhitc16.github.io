@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-07'
+  last_updated: '2026-08-10'
 papers:
   9XyXnhIAAAAJ:3s1wT3WcHBgC:
     citations: 0
@@ -40,9 +40,9 @@ papers:
   9XyXnhIAAAAJ:UeHWp8X0CEIC:
     citations: 98
     title: Catalysis by the non-heme iron (II) histone demethylase PHF8 involves iron center rearrangement and conformational modulation of substrate orientation
-    year: '2019'
+    year: '2020'
   9XyXnhIAAAAJ:W7OEmFMy1HYC:
-    citations: 74
+    citations: 75
     title: Role of structural dynamics in selectivity and mechanism of non-heme Fe (II) and 2-oxoglutarate-dependent oxygenases involved in DNA repair
     year: '2020'
   9XyXnhIAAAAJ:WF5omc3nYNoC:
@@ -82,7 +82,7 @@ papers:
     title: "Catalysis by KDM6 Histone Demethylases\u2013A Synergy between the Non\u2010Heme Iron (II) Center, Second Coordination Sphere, and Long\u2010Range Interactions"
     year: '2023'
   9XyXnhIAAAAJ:e5wmG9Sq2KIC:
-    citations: 18
+    citations: 19
     title: Revealing the catalytic strategy of FTO
     year: '2023'
   9XyXnhIAAAAJ:eQOLeE2rZwMC:
@@ -114,7 +114,7 @@ papers:
     title: Structure-function relationships in KDM7 histone demethylases
     year: '2019'
   9XyXnhIAAAAJ:r0BpntZqJG4C:
-    citations: 48
+    citations: 50
     title: 'From Random to Rational: Improving Enzyme Design through Electric Fields, Second Coordination Sphere Interactions, and Conformational Dynamics'
     year: '2023'
   9XyXnhIAAAAJ:rO6llkc54NcC:
