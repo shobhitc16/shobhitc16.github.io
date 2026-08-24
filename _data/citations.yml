@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-12'
+  last_updated: '2026-08-24'
 papers:
   9XyXnhIAAAAJ:3s1wT3WcHBgC:
     citations: 0
@@ -22,7 +22,7 @@ papers:
     title: "Effects of the Nature of Metal Ion, Protein and Substrate on the Catalytic Center in Matrix Metalloproteinase\u20101: Insights from Multilevel MD, QM/MM and QM Studies"
     year: '2022'
   9XyXnhIAAAAJ:M05iB0D1s5AC:
-    citations: 30
+    citations: 31
     title: The unique role of the second coordination sphere to unlock and control catalysis in nonheme Fe (II)/2-oxoglutarate histone demethylase KDM2A
     year: '2024'
   9XyXnhIAAAAJ:QIV2ME_5wuYC:
@@ -38,11 +38,11 @@ papers:
     title: Computational insights into catalytic mechanism of Ne-methyl lysine demethylation by PHF8
     year: '2019'
   9XyXnhIAAAAJ:UeHWp8X0CEIC:
-    citations: 98
+    citations: 100
     title: Catalysis by the non-heme iron (II) histone demethylase PHF8 involves iron center rearrangement and conformational modulation of substrate orientation
     year: '2020'
   9XyXnhIAAAAJ:W7OEmFMy1HYC:
-    citations: 75
+    citations: 77
     title: Role of structural dynamics in selectivity and mechanism of non-heme Fe (II) and 2-oxoglutarate-dependent oxygenases involved in DNA repair
     year: '2020'
   9XyXnhIAAAAJ:WF5omc3nYNoC:
@@ -78,7 +78,7 @@ papers:
     title: Designing an Artificial Metalloenzyme for Re (I)-catalyzed CO2 Photoreduction
     year: '2026'
   9XyXnhIAAAAJ:dhFuZR0502QC:
-    citations: 34
+    citations: 35
     title: "Catalysis by KDM6 Histone Demethylases\u2013A Synergy between the Non\u2010Heme Iron (II) Center, Second Coordination Sphere, and Long\u2010Range Interactions"
     year: '2023'
   9XyXnhIAAAAJ:e5wmG9Sq2KIC:
@@ -86,7 +86,7 @@ papers:
     title: Revealing the catalytic strategy of FTO
     year: '2023'
   9XyXnhIAAAAJ:eQOLeE2rZwMC:
-    citations: 54
+    citations: 56
     title: Catalysis by the JmjC histone demethylase KDM4A integrates substrate dynamics, correlated motions and molecular orbital control
     year: '2020'
   9XyXnhIAAAAJ:fPk4N6BV_jEC:
@@ -102,7 +102,7 @@ papers:
     title: Directed evolution of protoglobin optimizes the enzyme electric field
     year: '2024'
   9XyXnhIAAAAJ:mVmsd5A6BfQC:
-    citations: 22
+    citations: 23
     title: "Dioxygen Binding Is Controlled by the Protein Environment in Non\u2010heme FeII and 2\u2010Oxoglutarate Oxygenases: A Study on Histone Demethylase PHF8 and an \u2026"
     year: '2023'
   9XyXnhIAAAAJ:pqnbT2bcN3wC:
